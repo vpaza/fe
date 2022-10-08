@@ -72,7 +72,7 @@
           "AirportConditions": "ARRIVALS EXPECT VISUAL, ILS, OR GPS APCH RWYS 19L, 19R. DEPG RWYS 19L, 19R.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -86,7 +86,7 @@
           "AirportConditions": "ARRIVALS EXPECT ILS OR GPS APCH RWYS 19L, 19R. DEPG RWYS 19L, 19R.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -100,7 +100,7 @@
           "AirportConditions": "ARRIVALS EXPECT VISUAL OR GPS APCH RWYS 1L, 1R. DEPG RWYS 1L, 1R.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -114,7 +114,7 @@
           "AirportConditions": "ARRIVALS EXPECT VOR OR GPS APCH RWY 1L, RNAV APCH RWY 1R. DEPG RWYS 1L, 1R.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -209,7 +209,7 @@
           "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWYS 26, 29. DEPG RWYS 26, 29.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -223,7 +223,7 @@
           "AirportConditions": "ARRIVALS EXPECT ILS, VOR, OR RNAV APCH RWY 26. DEPG RWYS 26, 29.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -237,7 +237,7 @@
           "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWYS 08, 11. DEPG RWYS 08, 11.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -251,7 +251,7 @@
           "AirportConditions": "ARRIVALS EXPECT ILS, VOR, OR RNAV APCH RWY 26. DEPG RWY 08, 11.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -346,7 +346,7 @@
           "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 06. DEPG RWY 06.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -360,7 +360,7 @@
           "AirportConditions": "ARRIVALS EXPECT ILS OR RNAV APCH RWY 06. DEPG RWY 06.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -374,7 +374,7 @@
           "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 24. DEPG RWY 24.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -388,7 +388,7 @@
           "AirportConditions": "ARRIVALS EXPECT TACAN APCH RWY 16. DEPG RWY 24.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -483,7 +483,7 @@
           "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 14. DEPG RWY 14.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -497,7 +497,7 @@
           "AirportConditions": "ARRIVALS EXPECT ILS OR RNAV APCH RWY 14. TACAN RWY 14 APCH AVBL ON REQUEST. DEPG RWY 14.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -511,7 +511,7 @@
           "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 32. DEPG RWY 32.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -525,7 +525,7 @@
           "AirportConditions": "ARRIVALS EXPECT ILS OR RNAV APCH RWY 32. TACAN RWY 32 APCH AVBL ON REQUEST. DEPG RWY 32.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -620,7 +620,7 @@
           "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 02L. DEPG RWY 02L. RWYS 02W, 02R AVBL ON REQUEST.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -634,7 +634,7 @@
           "AirportConditions": "ARRIVALS EXPECT VOR OR RNAV APCH RWY 02L. DEPG RWY 02L.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -648,7 +648,7 @@
           "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 20R. DEPG RWY 20R. RWYS 20W, 20L AVBL ON REQUEST.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -662,7 +662,7 @@
           "AirportConditions": "ARRIVALS EXPECT ILS, VOR, OR RNAV APCH RWY 20R. DEPG RWY 20R.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -757,7 +757,7 @@
           "AirportConditions": "ILS RWY 2L APCH IN USE. LDG AND DEPTG RUNWAY 2L AND 2R.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -771,7 +771,7 @@
           "AirportConditions": "ILS RWY 20R APCH IN USE. LDG AND DEPTG RUNWAY 20R AND 20L.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -866,7 +866,7 @@
           "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 07. DEPG RWY 07.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -880,7 +880,7 @@
           "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 25. DEPG RWY 25.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -894,7 +894,7 @@
           "AirportConditions": "ARRIVALS EXPECT NDB-A OR GPS APCH RWY 25, CIRCLE TO LAND RWY 07. DEPG RWY 07.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -908,7 +908,7 @@
           "AirportConditions": "ARRIVALS EXPECT NDB-A OR GPS APCH RWY 25. DEPG RWY 25.",
           "Notams": "ARRIVING AND DEPARTING WITH SIGNIFICANT TAILWIND. CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -922,7 +922,7 @@
           "AirportConditions": "ARRIVALS EXPECT NDB-A OR GPS APCH RWY 25. DEPG RWY 25.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -1017,7 +1017,7 @@
           "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWYS 19. DEPG RWYS 19.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -1031,7 +1031,7 @@
           "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWYS 1. DEPG RWYS 1.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -1126,7 +1126,7 @@
           "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 08. DEPG RWY 08. WATER RWY AVBL ON REQUEST.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -1140,7 +1140,7 @@
           "AirportConditions": "ARRIVALS EXPECT LDA-X OR RNAV APCH RWY 08. DEPG RWY 08.",
           "Notams": "DEPARTURES FILE ASORT DEPARTURE OR WILL BE ASSIGNED JUNEAU OBSTACLE DEPARTURE. CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -1154,7 +1154,7 @@
           "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 26. DEPG RWY 26. WATER RWY AVBL ON REQUEST.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -1168,7 +1168,7 @@
           "AirportConditions": "ARRIVALS EXPECT LDA-X OR RNAV APCH RWY 08. DEPG RWY 26.",
           "Notams": "DEPARTURES FILE ASORT DEPARTURE OR WILL BE ASSIGNED JUNEAU OBSTACLE DEPARTURE. CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -1263,7 +1263,7 @@
           "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWYS 30. DEPG RWY 30.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -1277,7 +1277,7 @@
           "AirportConditions": "ARRIVALS EXPECT VOR Y, LOC BC, OR RNAV APCH RWY 30. DEPG RWY 30.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -1291,7 +1291,7 @@
           "AirportConditions": "ARRIVALS EXPECT VISUAL RWY 12. DEPG RWY 12.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -1305,7 +1305,7 @@
           "AirportConditions": "ARRIVALS EXPECT ILS OR RNAV APCH RWY 12. DEPG RWY 12.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -1400,7 +1400,7 @@
           "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 14. DEPG RWY 14.",
           "Notams": "FLOAT PLANES ADVISE ON INITIAL CONTACT AND REQUESTED WATERWAY. CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -1414,7 +1414,7 @@
           "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 32. DEPG RWY 32.",
           "Notams": "FLOAT PLANES ADVISE ON INITIAL CONTACT AND REQUESTED WATERWAY. CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -1509,7 +1509,7 @@
           "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWYS 07, 34. DEPG RWYS 07, 34.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -1523,7 +1523,7 @@
           "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWYS 25, 34. DEPG RWYS 25, 34.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -1537,7 +1537,7 @@
           "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWYS 07, 16. DEPG RWYS 07, 16.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -1551,7 +1551,7 @@
           "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWYS 16, 25. DEPG RWYS 16, 25.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -1565,7 +1565,7 @@
           "AirportConditions": "ARRIVALS EXPECT VOR-A APCH. OIC.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -1674,7 +1674,7 @@
           "AirportConditions": "ARRIVALS EXP VISUAL OR RNP RWY 33 APCH. DEPARTING RWY 33.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -1688,7 +1688,7 @@
           "AirportConditions": "DEPARTING RWY 25L. ARRIVING RWY 15.",
           "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
           "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
             "Url": null,
             "Arrival": null,
@@ -1702,7 +1702,7 @@
             "AirportConditions": "DEPARTING RWY 7L. ARRIVING RWY 15.",
             "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
             "ArbitraryText": null,
-            "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+            "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
             "ExternalGenerator": {
               "Url": null,
               "Arrival": null,

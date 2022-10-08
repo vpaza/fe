@@ -69,7 +69,7 @@
       "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWYS 26, 29. DEPG RWYS 26, 29.",
       "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
       "ArbitraryText": null,
-      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
       "ExternalGenerator": {
         "Url": null,
         "Arrival": null,
@@ -83,7 +83,7 @@
       "AirportConditions": "ARRIVALS EXPECT ILS, VOR, OR RNAV APCH RWY 26. DEPG RWYS 26, 29.",
       "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
       "ArbitraryText": null,
-      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
       "ExternalGenerator": {
         "Url": null,
         "Arrival": null,
@@ -97,7 +97,7 @@
       "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWYS 08, 11. DEPG RWYS 08, 11.",
       "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
       "ArbitraryText": null,
-      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
       "ExternalGenerator": {
         "Url": null,
         "Arrival": null,
@@ -111,7 +111,7 @@
       "AirportConditions": "ARRIVALS EXPECT ILS, VOR, OR RNAV APCH RWY 26. DEPG RWY 08, 11.",
       "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
       "ArbitraryText": null,
-      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
       "ExternalGenerator": {
         "Url": null,
         "Arrival": null,
