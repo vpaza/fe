@@ -63,7 +63,64 @@
     "Voice": "Default"
   },
   "IDSEndpoint": null,
-  "Presets": [],
+  "Presets": [
+    {
+      "Name": "SOUTH OPS VMC",
+      "AirportConditions": "ARRIVALS EXPECT VISUAL, ILS, OR GPS APCH RWYS 19L, 19R. DEPG RWYS 19L, 19R.",
+      "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    },
+    {
+      "Name": "SOUTH OPS IMC",
+      "AirportConditions": "ARRIVALS EXPECT ILS OR GPS APCH RWYS 19L, 19R. DEPG RWYS 19L, 19R.",
+      "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    },
+    {
+      "Name": "NORTH OPS VMC",
+      "AirportConditions": "ARRIVALS EXPECT VISUAL OR GPS APCH RWYS 1L, 1R. DEPG RWYS 1L, 1R.",
+      "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    },
+    {
+      "Name": "NORTH OPS IMC",
+      "AirportConditions": "ARRIVALS EXPECT VOR OR GPS APCH RWY 1L, RNAV APCH RWY 1R. DEPG RWYS 1L, 1R.",
+      "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+      "ArbitraryText": null,
+      "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]. [ADVISE_ON_INIT_CONTACT].",
+      "ExternalGenerator": {
+        "Url": null,
+        "Arrival": null,
+        "Departure": null,
+        "Approaches": null,
+        "Remarks": null
+      }
+    }
+  ],
   "AirportConditionDefinitions": [],
   "AirportConditionsBeforeFreeText": false,
   "NotamDefinitions": [],
