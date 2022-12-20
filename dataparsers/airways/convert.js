@@ -55,6 +55,50 @@ const DMStoDD = (dms) => {
   return dd
 }
 
+const toRadians = (degrees) => {
+  return degrees * Math.PI / 180
+}
+
+const toDegrees = (radians) => {
+  return radians * 180 / Math.PI
+}
+
+const getBearing = (point1, point2) => {
+  lat1 = toRadians(point1.lat)
+  lat2 = toRadians(point2.lat)
+  lon1 = toRadians(point1.lon)
+  lon2 = toRadians(point2.lon)
+
+  const y = Math.sin(lon2 - lon1) * Math.cos(lat2)
+  const x = Math.cos(lat1) * Math.sin(lat2) - Math.sin(lat1) * Math.cos(lat2) * Math.cos(lon2 - lon1)
+  const brng = toDegrees(Math.atan2(y, x))
+  return (brng + 360) % 360
+}
+
+// Distance in nautical miles
+function createCoord(coord, bearing, distance) {
+  let radius = 6371e3 //meters
+  let angDist = distance / radius // angular distance in radians
+  let brng = toRadians(bearing);
+  let lat1 = toRadians(coord[1])
+  let lon1 = toRadians(coord[0])
+
+  let lat2 = Math.asin(
+    Math.sin(lat1) * Math.cos(angDist) + Math.cos(lat1) * Math.sin(angDist) * Math.cos(brng)
+  )
+
+  let lon2 =
+    lon1 +
+    Math.atan2(
+      Math.sin(brng) * Math.sin(angDist) * Math.cos(lat1),
+      Math.cos(angDist) - Math.sin(lat1) * Math.sin(lat2)
+    )
+
+  lon2 = ((lon2 + 3 * Math.PI) % (2 * Math.PI)) - Math.PI // normalise to -180..+180°
+
+  return {lon: toDegrees(lon2), lat: toDegrees(lat2)}
+}
+
 const lines = fs.readFileSync(inputPath, "utf-8").split(/\r?\n/)
 lines.forEach((line) => {
   // Skip if line is blank
@@ -123,9 +167,19 @@ Object.keys(hiAirways).forEach((desig) => {
   let lastpoint = null
   hiAirways[desig].forEach((point) => {
     if (lastpoint) {
+      startPoint = createCoord(
+        [lastpoint.lon, lastpoint.lat],
+        getBearing(lastpoint, point),
+        5 * 1852
+      )
+      endPoint = createCoord(
+        [point.lon, point.lat],
+        getBearing(point, lastpoint),
+        5 * 1852
+      )
       fs.appendFileSync(
         airwayOutput,
-        `            <Element xsi:type="Line" Filters="" StartLat="${lastpoint.lat}" StartLon="${lastpoint.lon}" EndLat="${point.lat}" EndLon="${point.lon}" /> <!-- ${desig} -->\n`
+        `            <Element xsi:type="Line" Filters="" StartLat="${startPoint.lat}" StartLon="${startPoint.lon}" EndLat="${endPoint.lat}" EndLon="${endPoint.lon}" /> <!-- ${desig} -->\n`
       )
     }
     lastpoint = point
@@ -148,9 +202,11 @@ Object.keys(loAirways).forEach((desig) => {
   let lastpoint = null
   loAirways[desig].forEach((point) => {
     if (lastpoint) {
+      startPoint = createCoord([lastpoint.lon, lastpoint.lat], getBearing(lastpoint, point), 5 * 1852)
+      endPoint = createCoord([point.lon, point.lat], getBearing(point, lastpoint), 5 * 1852)
       fs.appendFileSync(
         airwayOutput,
-        `            <Element xsi:type="Line" Filters="" StartLat="${lastpoint.lat}" StartLon="${lastpoint.lon}" EndLat="${point.lat}" EndLon="${point.lon}" /> <!-- ${desig} -->\n`
+        `            <Element xsi:type="Line" Filters="" StartLat="${startPoint.lat}" StartLon="${startPoint.lon}" EndLat="${endPoint.lat}" EndLon="${endPoint.lon}" /> <!-- ${desig} -->\n`
       )
     }
     lastpoint = point
