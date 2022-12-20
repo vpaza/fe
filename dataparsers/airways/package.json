@@ -1,0 +1,12 @@
+{
+  "name": "airways",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "convert": "node convert.js"
+  },
+  "keywords": [],
+  "author": "Daniel Hawton",
+  "license": "Apache-2.0"
+}
