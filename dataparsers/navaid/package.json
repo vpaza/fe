@@ -4,11 +4,10 @@
   "description": "",
   "main": "convert.js",
   "scripts": {
-    "convert": "node convert.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "convert": "node convert.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Daniel Hawton",
+  "license": "Apache-2.0",
   "dependencies": {
     "csv-parse": "^5.3.3"
   }
