@@ -1,6 +1,6 @@
 # Airway parser
 
-This parser is used to parse the airway data from the [FAA](http://www.faa.gov/air_traffic/flight_info/aeronav/aero_data/NASR_Subscription/) database.
+This parser is used to parse the airway (and ATS route) data from the [FAA](http://www.faa.gov/air_traffic/flight_info/aeronav/aero_data/NASR_Subscription/) database.
 
 ## Requirements
 
@@ -19,10 +19,10 @@ npm install
 To run the parser, run the following command:
 
 ```bash
-npm run convert -- AWY.txt
+npm run convert
 ```
 
-Where `AWY.txt` is the path to the airway data file.
+This assumes that both AWY.txt and ATS.txt from the FAA Aero Data is present in the same directory.
 
 ## Output
 

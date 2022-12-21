@@ -14,10 +14,11 @@ const boundingBox = {
 const fs = require("fs")
 const path = require("path")
 
-const args = process.argv.slice(2)
-const input = args[0]
+const input = "AWY.txt"
+const ATSinput = "ATS.txt"
 
 const inputPath = path.join(__dirname, input)
+const ATSinputPath = path.join(__dirname, ATSinput)
 const fixOutput = path.join(__dirname, "fixes.xml")
 const airwayOutput = path.join(__dirname, "airways.xml")
 
@@ -99,7 +100,7 @@ function createCoord(coord, bearing, distance) {
   return {lon: toDegrees(lon2), lat: toDegrees(lat2)}
 }
 
-const lines = fs.readFileSync(inputPath, "utf-8").split(/\r?\n/)
+let lines = fs.readFileSync(inputPath, "utf-8").split(/\r?\n/)
 lines.forEach((line) => {
   // Skip if line is blank
   if (line.length === 0) return
@@ -109,6 +110,7 @@ lines.forEach((line) => {
 
   const desig = line.substring(4, 9).trim()
   const name = line.substring(15, 45).trim()
+  const seq = line.substring(10, 10 + 4).trim()
   const type = line.substring(45, 45+19).trim()
   const isFix = line.substring(64, 64+15).trim()
   const navaid_ident = line.substring(116, 120).trim()
@@ -129,6 +131,8 @@ lines.forEach((line) => {
     hiAirways[desig].push({
       lat,
       lon,
+      seq,
+      name,
     })
 
     if (isFix === "FIX") {
@@ -145,6 +149,8 @@ lines.forEach((line) => {
     loAirways[desig].push({
       lat,
       lon,
+      seq,
+      name,
     })
 
     if (isFix === "FIX") {
@@ -152,6 +158,46 @@ lines.forEach((line) => {
         lat,
         lon,
       }
+    }
+  }
+})
+
+// Read ATS routes and add to High Airways
+lines = fs.readFileSync(ATSinputPath, "utf-8").split(/\r?\n/)
+lines.forEach((line) => {
+  // Skip line if blank
+  if (line.length === 0) return
+
+  // Only interested in ATS2 lines
+  if (!line.startsWith("ATS2")) return
+
+  const desig = line.substring(6, 6+12).trim()
+  const seq = line.substring(21, 21 + 3).trim()
+  const name = line.substring(25, 25+40).trim()
+  const isFix = line.substring(90, 90+15).trim()
+  const lat = DMStoDD(line.substring(109, 109+14).trim())
+  const lon = DMStoDD(line.substring(123, 123+14).trim())
+
+  // Check if in bounding box
+  if (lat < boundingBox.minLat || lat > boundingBox.maxLat || lon < boundingBox.minLon || lon > boundingBox.maxLon) {
+    return
+  }
+
+  if (!hiAirways[desig]) {
+    hiAirways[desig] = [];
+  }
+
+  hiAirways[desig].push({
+    lat,
+    lon,
+    seq,
+    name,
+  })
+
+  if (isFix === "FIX") {
+    hiInt[name] = {
+      lat,
+      lon,
     }
   }
 })
@@ -166,7 +212,7 @@ fs.appendFileSync(airwayOutput, `        <GeoMapObject Description="HI AWY" TdmO
 Object.keys(hiAirways).forEach((desig) => {
   let lastpoint = null
   hiAirways[desig].forEach((point) => {
-    if (lastpoint) {
+    if (lastpoint && 1 === Math.abs(point.seq - lastpoint.seq)) {
       startPoint = createCoord(
         [lastpoint.lon, lastpoint.lat],
         getBearing(lastpoint, point),
@@ -179,7 +225,7 @@ Object.keys(hiAirways).forEach((desig) => {
       )
       fs.appendFileSync(
         airwayOutput,
-        `            <Element xsi:type="Line" Filters="" StartLat="${startPoint.lat}" StartLon="${startPoint.lon}" EndLat="${endPoint.lat}" EndLon="${endPoint.lon}" /> <!-- ${desig} -->\n`
+        `            <Element xsi:type="Line" Filters="" StartLat="${startPoint.lat}" StartLon="${startPoint.lon}" EndLat="${endPoint.lat}" EndLon="${endPoint.lon}" /> <!-- ${desig}: ${lastpoint.name}-${point.name} -->\n`
       )
     }
     lastpoint = point
@@ -201,12 +247,20 @@ fs.appendFileSync(
 Object.keys(loAirways).forEach((desig) => {
   let lastpoint = null
   loAirways[desig].forEach((point) => {
-    if (lastpoint) {
-      startPoint = createCoord([lastpoint.lon, lastpoint.lat], getBearing(lastpoint, point), 5 * 1852)
-      endPoint = createCoord([point.lon, point.lat], getBearing(point, lastpoint), 5 * 1852)
+    if (lastpoint && 1 === Math.abs(point.seq - lastpoint.seq)) {
+      startPoint = createCoord(
+        [lastpoint.lon, lastpoint.lat],
+        getBearing(lastpoint, point),
+        5 * 1852
+      )
+      endPoint = createCoord(
+        [point.lon, point.lat],
+        getBearing(point, lastpoint),
+        5 * 1852
+      )
       fs.appendFileSync(
         airwayOutput,
-        `            <Element xsi:type="Line" Filters="" StartLat="${startPoint.lat}" StartLon="${startPoint.lon}" EndLat="${endPoint.lat}" EndLon="${endPoint.lon}" /> <!-- ${desig} -->\n`
+        `            <Element xsi:type="Line" Filters="" StartLat="${startPoint.lat}" StartLon="${startPoint.lon}" EndLat="${endPoint.lat}" EndLon="${endPoint.lon}" /> <!-- ${desig}: ${lastpoint.name}-${point.name} -->\n`
       )
     }
     lastpoint = point

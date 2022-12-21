@@ -60,11 +60,13 @@ records.forEach((r) => {
       vors[r["NAV_ID"]] = {
         lat: parseFloat(r["LAT_DECIMAL"]),
         lon: parseFloat(r["LONG_DECIMAL"]),
+        text: r["NAV_ID"],
       }
     } else {
       ndbs[r["NAV_ID"]] = {
         lat: parseFloat(r["LAT_DECIMAL"]),
         lon: parseFloat(r["LONG_DECIMAL"]),
+        text: r["NAV_ID"],
       }
     }
   }
@@ -73,7 +75,7 @@ records.forEach((r) => {
 fs.appendFileSync(
   vorOutput,
   `        <GeoMapObject Description="VORs" TdmOnly="false">
-          <TextDefaults Bcg="10" Filters="10" Size="1" Underline="false" Opaque="false" XOffset="10" YOffset="10" />
+          <TextDefaults Bcg="15" Filters="14" Size="1" Underline="false" Opaque="false" XOffset="10" YOffset="10" />
           <SymbolDefaults Bcg="10" Filters="10" Style="VOR" Size="1" />
           <Elements>
 `
@@ -82,27 +84,31 @@ fs.appendFileSync(
 fs.appendFileSync(
   ndbOutput,
   `        <GeoMapObject Description="NDBs" TdmOnly="false">
-          <TextDefaults Bcg="10" Filters="10" Size="1" Underline="false" Opaque="false" XOffset="10" YOffset="10" />
+          <TextDefaults Bcg="16" Filters="15" Size="1" Underline="false" Opaque="false" XOffset="10" YOffset="10" />
           <SymbolDefaults Bcg="10" Filters="10" Style="NDB" Size="1" />
           <Elements>
 `
 )
 
 Object.keys(vors).forEach((vor) => {
-  const { lat, lon } = vors[vor]
+  const { lat, lon, text } = vors[vor]
 
   fs.appendFileSync(
     vorOutput,
-    `            <Element xsi:type="Symbol" Filters="" Lat="${lat}" Lon="${lon}" />\n`
+    `            <Element xsi:type="Symbol" Filters="" Lat="${lat}" Lon="${lon}" />
+            <Element xsi:type="Text" Filters="" Lat="${lat}" Lon="${lon}" Lines="${text}" />
+`
   )
 })
 
 Object.keys(ndbs).forEach((ndb) => {
-  const { lat, lon } = ndbs[ndb]
+  const { lat, lon, text } = ndbs[ndb]
 
   fs.appendFileSync(
     ndbOutput,
-    `            <Element xsi:type="Symbol" Filters="" Lat="${lat}" Lon="${lon}" />\n`
+    `            <Element xsi:type="Symbol" Filters="" Lat="${lat}" Lon="${lon}" />
+            <Element xsi:type="Text" Filters="" Lat="${lat}" Lon="${lon}" Lines="${text}" />
+`
   )
 })
 
