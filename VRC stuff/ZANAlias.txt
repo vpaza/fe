@@ -1,0 +1,330 @@
+; Anchorage ARTCC Alias File
+; https://www.vzanartcc.net
+
+; $squawk        squawk code assigned to the radioselected aircraft
+; $arr           arrival airport of the radioselected aircraft
+; $dep           departure airport of the radioselected aircraft
+; $cruise        assigned cruise altitude of the radioselected aircraft
+; $temp          assigned temporary altitude of the radioselected aircraft
+; $alt           assigned temporary altitude, if it exists, otherwise returns the assigned cruise altitude of the radioselected aircraft
+; $calt          current altitude of the radioselected aircraft
+; $callsign      controller's callsign
+; $com1          primary radio frequency of the controller
+; $myrealname    real name of the controller
+; $winds         wind at the destination airport if airspeed >= 30 KTS, and departure airport if <30KTS
+; $myrw          complete voice server and frequency
+; $mypvtrw       complete voice server and frequency, but hides it from serveinfo
+; $metar(ICAO)   metar at the ICAO airport in the parentheses
+; $altim(ICAO)   altimeter setting at the ICAO airport in parentheses
+; $wind(ICAO)    wind at the ICAO airport in parentheses
+; $dist(POINT)   distance to the POINT (airport, VOR, NDB, or FIX in parentheses
+; $oclock(POINT) clock position of the POINT (airport, VOR, NDB or FIX in parentheses
+; $bear(POINT)   cardinal compass direction from the POINT (airport, VOR, NDB, or FIX in parentheses
+; $radioname(CC) full spoken radio name of controller CC, yours if empty parentheses
+; $freq(CC)      radio frequency of controller CC, yours if empty parentheses
+; $metar($arr)   Metar of the aircraft's arrival airport
+
+##########################################################
+GENERAL
+##########################################################
+.contact Contact $radioname($1) on frequency $freq($1).
+.outofair Your leaving my airspace to the $1, no further ATC available. Monitor advisory frequency 122.8 and have a great flight!
+.brb Attention All Aircraft, $radioname() will be back in $1 minute(s).
+.back Attention All Aircraft, $radioname() is back, sorry for the delay.
+
+##########################################################
+WEATHER INFORMATION
+##########################################################
+.altimeter $1 Altimeter $altim($1)
+.metar $1 Metar $metar($1)
+
+##########################################################
+CLEARANCE DELIVERY
+##########################################################
+.ca Clearance Available, Advise Ready To Copy.
+.nfp You do not show a valid flight plan. Please refile your flight plan.
+.sidt Do you have the $1 departure chart on board?
+.star Do you have the $1 arrival chart on board?
+.charts Current charts and diagrams can be found at airnav.com.
+.cor Clearance on request, number $1, standby.
+.pref Preferred routing to $arr is $1. Are you able to accept?
+.clrv Cleared to $arr, radar vectors $1, then as filed. Maintain $2, expect $cruise 10 minutes after departure. Departure frequency $freq($3), squawk $squawk.
+.clrpvi Cleared to $arr, $1 Departure, radar vectors $2, then as filed. Maintain $3, expect $cruise 10 minutes after departure. Departure frequency $freq($4), squawk $squawk.
+.clrpvc Cleared to $arr, $1 Departure, radar vectors $2, then as filed. Climb via SID, expect $cruise 10 minutes after departure. Departure frequency $freq($3), squawk $squawk.
+.clrpve Cleared to $arr, $1 Departure, radar vectors $2, then as filed. Climb via SID, except maintain $3, expect $cruise 10 minutes after departure. Departure frequency $freq($4), squawk $squawk.
+.clrpti Cleared to $arr, $1 Departure, $2 transition, then as filed. Maintain $3, expect $cruise 10 minutes after departure. Departure frequency $freq($4), squawk $squawk.
+.clrptc Cleared to $arr, $1 Departure, $2 transition, then as filed. Climb via SID, expect $cruise 10 minutes after departure. Departure frequency $freq($3), squawk $squawk.
+.clrpve Cleared to $arr, $1 Departure, S2 transition, then as filed. Climb via SID, except maintain $3, expect $cruise 10 minutes after departure. Departure frequency $freq($4), squawk $squawk.
+.clrfi Cleared to $arr, $route. Maintain $1, expect $cruise 10 minutes after departure. Departure frequency $freq($2), squawk $squawk.
+.clrfc Cleared to $arr, $route. Climb via SID, expect $cruise 10 minutes after departure. Departure frequency $freq($2), squawk $squawk.
+.clrfe Cleared to $arr, $route. Climb via SID, except maintain $2, expect $cruise 10 minutes after departure. Departure frequency $freq($2), squawk $squawk.
+.rbc Readback Correct.
+.er Expect runway $1 for departure.
+.info Information $1 current. Advise when you have information $1.
+.hfr Hold For Release.
+.rn1 Report number 1 for departure.
+.rfd Released for departure. Clearance void if not off by $ftime(10). If not off by $ftime(10), advise $radioname() on $freq() of intentions. Time now $time. Frequency change approved.
+
+##########################################################
+PRE-DEPARTURE CLEARANCES
+##########################################################
+.PSB STAND BY FOR PRE-DEPARTURE CLEARANCE VIA PM. IF UNABLE PM ADVISE.
+.pdc .p1 .p2
+.pdcu .p1 .p2u
+.pdcm .p1m $1 .p2
+.pdcmu .p1m $1 .p2u
+.pdct .p1 .p2t
+.pdcut .p1 .p2ut
+.pdcmt .p1m $1 .p2t
+.pdcmut .p1m $1 .p2ut
+.pdcz .p1 .p2z
+.pdcuz .p1 .p2uz
+.pdcmz .p1m $1 .p2z
+.pdcmuz .p1m $1 .p2uz
+
+.route .msg $aircraft ATC HAS ISSUED AN AMENDMENT TO YOUR ROUTE OF FLIGHT TO BETTER FACILITATE AIR TRAFFIC MOVEMENTS. IF YOU ARE ABLE TO ACCEPT THE AMENDMENT, PLEASE REPLY TO THIS MESSAGE THEN EXPECT TO RECEIVE CLEARANCE. IF YOU ARE NOT ABLE TO ACCEPT THE AMENDMENT, HAVE ANY QUESTIONS, OR WOULD PREFER A DIFFERENT ROUTE, PLEASE CONTACT $uc($radioname()) ON $com1. THE PROPOSED AMENDED ROUTE FOR YOUR FLIGHT IS: 
+
+.p1 .msg $aircraft - CLEARANCE START - | CALL SIGN: $aircraft | TRANSPONDER CODE: $squawk | ALTITUDE: $cruise | DEPT: $dep | ARR: $arr | EQUIPMENT: $type($aircraft) | APPROVED ROUTE: $route | ALTITUDE RESTRICTIONS: CLIMB VIA SID. -
+.p1m .msg $aircraft - CLEARANCE START - | CALL SIGN: $aircraft | TRANSPONDER CODE: $squawk | ALTITUDE: $cruise | DEPT: $dep | ARR: $arr | EQUIPMENT: $type($aircraft) | APPROVED ROUTE: $route | ALTITUDE RESTRICTIONS: MAINTAIN $1 -
+.p2 ADDITIONAL INFORMATION: DEPARTURE FREQUENCY $freq($1) | THIS MESSAGE SERVES AS YOUR DEPARTURE CLEARANCE. YOU DO NOT NEED TO REPLY TO THIS MESSAGE. CONTACT $uc($radioname()) ON $com1 WITH LOCATION ON THE AIRPORT, ASSIGNED SID, AND CURRENT ATIS WHEN READY TO PUSH OR IF YOU HAVE QUESTIONS REGARDING THIS CLEARANCE. - CLEARANCE END -
+.p2u ADDITIONAL INFORMATION: DEPARTURE CURRENTLY OFFLINE, EXPECT TO MONITOR UNICOM 122.800. | THIS MESSAGE SERVES AS YOUR DEPARTURE CLEARANCE. YOU DO NOT NEED TO REPLY TO THIS MESSAGE. CONTACT $uc($radioname()) ON $com1 WITH LOCATION ON THE AIRPORT, ASSIGNED SID, AND CURRENT ATIS WHEN READY TO PUSH OR IF YOU HAVE QUESTIONS REGARDING THIS CLEARANCE. - CLEARANCE END -
+.p2t ADDITIONAL INFORMATION: DEPARTURE FREQUENCY $freq($1) | THIS MESSAGE SERVES AS YOUR DEPARTURE CLEARANCE. YOU DO NOT NEED TO REPLY TO THIS MESSAGE. PUSH AND START AT YOUR DISCRETION, CHECK ATIS FOR DEPARTURE RUNWAY. CONTACT $uc($radioname()) ON $com1 WITH ASSIGNED SID, AND CURRENT ATIS WHEN READY TO TAXI OR IF YOU HAVE QUESTIONS REGARDING THIS CLEARANCE. - CLEARANCE END -
+.p2ut ADDITIONAL INFORMATION: DEPARTURE CURRENTLY OFFLINE, EXPECT TO MONITOR UNICOM 122.800. | THIS MESSAGE SERVES AS YOUR DEPARTURE CLEARANCE. YOU DO NOT NEED TO REPLY TO THIS MESSAGE. PUSH AND START AT YOUR DISCRETION, CHECK ATIS FOR DEPARTURE RUNWAY. CONTACT $uc($radioname()) ON $com1 WITH ASSIGNED SID, AND CURRENT ATIS WHEN READY TO TAXI OR IF YOU HAVE QUESTIONS REGARDING THIS CLEARANCE. - CLEARANCE END -
+.p2z ADDITIONAL INFORMATION: DEPARTURE FREQUENCY $freq($1) | THIS MESSAGE SERVES AS YOUR DEPARTURE CLEARANCE. YOU DO NOT NEED TO REPLY TO THIS MESSAGE. PUSH AND START AT YOUR DISCRETION, CHECK ATIS FOR DEPARTURE RUNWAY. CONTACT $uc($radioname()) ON $com1 WITH ASSIGNED SID, AND CURRENT ATIS WHEN HOLDING SHORT OF TAXIWAY Z OR IF YOU HAVE QUESTIONS REGARDING THIS CLEARANCE. - CLEARANCE END -
+.p2uz ADDITIONAL INFORMATION: DEPARTURE CURRENTLY OFFLINE, EXPECT TO MONITOR UNICOM 122.800. | THIS MESSAGE SERVES AS YOUR DEPARTURE CLEARANCE. YOU DO NOT NEED TO REPLY TO THIS MESSAGE. PUSH AND START AT YOUR DISCRETION, CHECK ATIS FOR DEPARTURE RUNWAY. CONTACT $uc($radioname()) ON $com1 WITH  ASSIGNED SID, AND CURRENT ATIS WHEN HOLDING SHORT OF TAXIWAY Z OR IF YOU HAVE QUESTIONS REGARDING THIS CLEARANCE. - CLEARANCE END - 
+.xpdc you will receive your clearance via PDC over private message. Readback is not required.
+.nopdc .msg $aircraft PRE-DEPARTURE CLEARANCE UNAVAILABLE. CONTACT $freq($1) FOR CLEARANCE.
+.checkpdc clearance was issued via CPDLC. Check private messages for your IFR clearance.
+
+.pdc .p1 .p2
+.pdcu .p1 .p2u
+.pdcm .p1m $1 .p2
+.pdcmu .p1m $1 .p2u
+.pdct .p1 .p2t
+.pdcut .p1 .p2ut
+.pdcmt .p1m $1 .p2t
+.pdcmut .p1m $1 .p2ut
+.pdcz .p1 .p2z
+.pdcuz .p1 .p2uz
+.pdcmz .p1m $1 .p2z
+.pdcmuz .p1m $1 .p2uz
+##########################################################
+GROUND
+##########################################################
+.push p/s at pilot's discretion, advise ready to taxi.
+.taxir Runway $1, taxi via $2 $3 $4 $5 $6 $7 $8 $9 $10, altimeter $altim($dep).
+.taxip Taxi to parking via $2 $3 $4 $5 $6 $7 $8 $9 $10, remain on this frequency.
+.rbhsi readback HOLD SHORT instructions.
+.cs cross runway $1 at $2.
+.rhs report holding short.
+.hst Hold short of taxiway $1 at $2.
+.ctwr Contact Tower on $freq($1), have a good day!
+
+##########################################################
+TOWER
+##########################################################
+.luaw Runway $1, line up and wait.
+.luawi Runway $1 at $2, line up and wait.
+.cto Wind $wind($dep), runway $1, cleared for takeoff.
+.ctorh Fly runway heading, wind $wind($dep), runway $1, cleared for takeoff.
+.ctofh Fly heading $1, wind $wind($dep), runway $2, cleared for takeoff.
+.ctodp Fly the $1 Departure, wind $wind($dep), runway $2, cleared for takeoff.
+.ctort RNAV to $1, wind $wind($dep), runway $2, cleared for takeoff.
+.hsr Hold short of runway $1 at $2.
+.hslt Hold short of $1 at $2 for landing traffic.
+.ctl wind $wind($arr), runway $1, cleared to land.
+.ctlo wind $wind($arr), runway $1, cleared for the option.
+.wt Caution wake turbulence from $1.
+.si State intentions.
+.r5mile Report 5 mile final.
+.grnd Go around, fly heading $1, climb and maintain $2.
+.vissep Maintain visual separation.
+.vissep2 Traffic has you in sight and will maintain visual separation.
+.tnf Traffic no longer a factor.
+.hln Helicopter $aircraft, landing at the ramp will be at your own risk, wind $wind($arr), report landing assured.
+.hlm Helicopter $aircraft, wind $wind($arr), RWY/HELI/TAXI $1, cleared to land.
+.exit Welcome to $arr, exit $1 when able.
+.exiths Welcome to $arr, exit $1 when able, HOLD SHORT of runway $2.
+.exitcs Welcome to $arr, exit $1 when able, cross runway $1.
+.exitcg Welcome to $arr, exit $1 when able, contact Ground on $freq($2), have a good day!
+.cgrd Contact Ground on $freq($1), have a good day!
+.cdep Contact Departure on $freq($1), have a good day!
+.cdep2 Contact Departure, have a good day!
+
+##########################################################
+RADAR OPERATIONS
+##########################################################
+.cm Climb and maintain $1.
+.dm Descend and maintain $1.
+.m Maintain $1.
+.trh Turn right heading $1.
+.tlh Turn left heading $1.
+.fh Fly heading $1.
+.tr Turn right $1 degrees.
+.tl Turn left $1 degrees.
+.fph Fly present heading.
+.jdp Join the $1 departure.
+.vff Radar contact, $dist($1) miles $bear($2) of $2. Maintain VFR.
+.och Say on course heading.
+.is Increase speed to $1 knots.
+.rs Reduce speed to $1 knots.
+.ms Maintain $1 knots.
+.sias Say indicated airspeed. 
+.mach Say indicated mach number.
+.mis Increase speed to mach $1.
+.mrs Reduce speed to mach $1.
+.resns Resume normal speed.
+.250 Maintain 250 KIAS or slower below 10,000 MSL.
+.pd Proceed direct $1.
+.cd Cleared direct $1.
+.vft Vectors for traffic.
+.vfa Vectors for approach.
+.vfs Vectors for sequencing.
+.vfd Vectors for descent.
+.ev Expect vectors for $1.
+.evv Expect vectors for VIS approach runway $1.
+.evi Expect vectors for ILS runway $1 approach.
+.evr Expect vectors for RNAV runway $1 approach.
+.imt Turn $1 $2 degrees immediately, without delay. Vectors for $3.
+
+##########################################################
+TRACON OPERATIONS
+##########################################################
+.ptaci $dist($1) miles from $1. Turn $2 heading $3. Maintain $4 until established on the localizer. Cleared ILS runway $5 approach.
+.ptacr Proceed direct $1. Maintain $2 until established on the final approach course. Cleared RNAV runway $3 approach.
+.rfis $arr at your $oclock($arr) o'clock, $dist($arr) miles, report the field in sight.
+.cva Cleared VIS approach runway $1.
+.iloc Fly heading $1, intercept the runway $2 localizer. Report established.
+.sar Say approach request.
+.rcd radar contact altitude indicates $1.
+
+##########################################################
+AIRSPACE IAP, VOR, NDB, FIXES, GATES
+##########################################################
+
+
+##########################################################
+CENTER OPERATIONS
+##########################################################
+.fix Cross $1 at and maintain $2, $arr altimeter $altim($arr).
+.fixs Cross $1 at and maintain $2 at $3 Knots, $arr altimeter $altim($arr).
+.ho Contact $radioname($1) $freq($1), have a great day!
+.rst leaving my airspace. Radar services terminated, frequency change approved. Have a good flight.
+.rstfss Radar services terminated, Oakland Radio offline, squawk 2000 for Oceanic flight, frequency change approved.
+.rstvfr Radar services terminated, squawk and maintain VFR. Frequency change approved.
+.sq Squawk $squawk.
+.rc radar contact $dist($1) miles $bear($1) of $1; altitude indicates $2.
+.sn Squawk mode charlie.
+.ss Squawk standby.
+.close Suspending ATC services as of $time Z. Radar services are terminated, change to advisory approved.
+.amott Descend via the AMOTT4 arrival. $arr altimeter $altim($arr). Report leaving $calt.
+.ellam Descend to cross ELLAM at and maintain 13,000. $arr altimeter $altim($arr). Report leaving $calt.
+.kroto Descend via the KROTO4 arrival. $arr altimeter $altim($arr). Report leaving $calt.
+.neell Descend via the NEELL6 arrival. $arr altimeter $altim($arr). Report leaving $calt.
+.pters Descend via the PTERS3 arrival. $arr altimeter $altim($arr). Report leaving $calt.
+.tager Descend to cross TAGER at and maintain 9,000. $arr altimeter $altim($arr). Report leaving $calt.
+.witti Descend via the WITTI4 arrival. $arr altimeter $altim($arr). Report leaving $calt.
+.yeska Descend to cross YESKA at and maintain 13,000. $arr altimeter $altim($arr). Report leaving $calt.
+.hrdng Descend via the HRDNG3 arrival. $arr altimeter $altim($arr). Report leaving $calt.
+.liber Descend via the LIBER4 arrival. $arr altimeter $altim($arr). Report leaving $calt.
+
+##########################################################
+VFR OPERATIONS
+##########################################################
+.erb Enter right base runway $1
+.elb Enter left base runway $1
+.esi Make straight in runway $1
+.erd Enter right downwind runway $1
+.eld Enter left downwind runway $1
+.erc Enter right crosswind runway $1
+.elc Enter left crosswind runway $1
+.flt Fly left traffic runway $1
+.frt Fly right traffic runway $1
+.rcxa right cross-wind departure approved
+.lcxa left cross-wind departure approved
+.ldwa left down-wind departure approved
+.rdwa down-wind departure approved
+.tovfr Make $1 $2 departure, wind $wind($dep), runway $3, cleared for takeoff
+.lcta LEFT closed traffic approved,
+.rcta RIGHT closed traffic approved, 
+.tfc Make $1 closed traffic to runway $2
+.opt Wind $wind($dep), runway $1, cleared for the option
+.optsgu Wind $wind($dep), runway $1, cleared for the option; STOP and GO unavailable
+.down Extend your downwind, I'll call your base
+.base Turn base leg now
+.360r Make a RIGHT 360, without delay.
+.360l Make a LEFT 360, without delay.
+.270r Make a RIGHT 270, without delay.
+.270l Make a LEFT 270, without delay.
+.rdcvfr radar contact, maintain VFR.
+.canff radar services terminated, squawk and maintain VFR. Frequency change approved. 
+.cfto when ATC clears you for the option these are your option choices: touch and go, low approach, land and taxi back to the runway, full stop, stop and go.
+.lcc Leaving Class CHARLIE airspace, squawk and maintain VFR radar services terminated, frequency change approved, thanks for flying HCF
+.lcd Leaving Class DELTA airspace, maintain VFR, frequency change approved, thanks for flying HCF
+.nto No traffic observed between you and the airfield.
+.mvfr Radar services terminated. Squawk and maintain VFR, frequency change approved.
+
+##########################################################
+GENERAL COMMUNICATIONS
+##########################################################
+.ty Thank you.
+.np No problem.
+.r Roger.
+.go Go ahead.
+.yes Affirmative.
+.no Negative.
+.ok Approved as requested.
+.dis Disregard.
+
+.fb Your feedback is welcomed at vzanartcc.net, Thanks!
+.reduce To reduce your typing chores, you do not need to type your callsign. It comes to us automatically in your text messages to ATC.
+.urtt Last aircraft calling, you are unreadable; please use text thanks.
+.text Are you text-only or can you receive voice?
+.novoice I can transmit only via text. You may respond using either text or voice.
+.ge Good evening!
+.ga Good afternoon!
+.gd Good day!
+.gm Good morning!
+.nam You are not cleared to move your aircraft in my control area; hold position until further instructed, or reset to a non-movement area. Thanks.
+.rwyspwn Please remove your aircraft from the active runway by RESETTING, not by taxi'ing. Thanks.
+.offcrs You appear to be off course of the $1 departure; please review your chart. Thanks.
+.outdep Your departure airport is not within my controlled airspace. Frequency change is approved. have a great flight.
+.outarr Your arrival airport is not within my controlled airspace. Frequency change is approved. have a great flight.
+.outenr Your flight does not take place within my controlled airspace. Frequency change is approved. have a great flight.
+.thanks Thanks for flying in Alaska, We hope to see you again soon. Have a good day!
+.closing **NOTAM** $radioname() is closing in $1 minute(s)
+
+##########################################################
+VIS POINTS
+##########################################################
+.ancfss .vis sya sri hsl ssr
+.zan1 .vis dibwo btt unk lohne
+.zan2 .vis crypt zitot coklu snout
+.zannew .vis snout seldm atago husug
+.a11 .vis ted edf
+.fai .vis fai eil
+
+==Reload Alias==
+.ra .reloadaliases
+.rs .reloadsector
+.rp .reloadpof
+
+##########################################################
+FIXES
+##########################################################
+.vor .ff AKN ANN BET BGQ BIG BKA BRW BTT CDB DLG EDF EIL ENA ENM ENN FAI FYU GAL GKN HOM HPB HSL JOH LVD MCG MDO MOS ODK OME ORT OTZ SCC SQA SSR TAL TED TKA ULL UNK WLK YAK YXY YZP YZT SYA
+.zapairway .FW R338 R220 R580 A590 R591 A342 G215 R451 B932
+.nopac .FW R220 A590 R591 R450 G344 R580 
+.zapfixes .FF POOFF NIPPI NRKEY NUZAN NYMPH NIKLL NATES NANDY OBOYD ONEIL OPAKE OLCOT OPHET OGDEN OMOTO PASRO POWAL PLADO AMOND CHIKI AAMYY ASPIN AKISU CUTEE CARTO 
+.zaptcps .FF MARCC EPLOS NULUK OFORD PINTT ALDOZ DRAPP CURVS .fn ADK
+
+##########################################################
+MISC
+##########################################################
+.vox Are you able to receive voice?
+.1 .rsb $1 $aircraft
+.noed You are leaving my airspace to the east. Edmonton offline, radar services terminated, frequency change to advisory is approved, enjoy the rest of your flight to $arr.
+.noradio You are leaving radar coverage to the southwest. Anchorage Radio is offline, monitor advisory frequency 122.8 and squawk 2000. Radar services terminated, enjoy your flight!
+.logoff Attention all aircraft $radioname() will be signing off at approximately $1z. Please remain on this frequency until instructed otherwise.
+.goodbye It has been my pleasure to offer ATC services to you all. If you would like to submit feedback or suggestions you can do so by going to vzanartcc.net. My name is $myrealname, and should you have any problems please contact a member of staff, found under the roster of our website. Thank you for flying and we hope to see you soon!
+.save .log /Logs/$callsign_$time

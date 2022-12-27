@@ -4,9 +4,11 @@ const path = require('path');
 const args = process.argv.slice(2);
 const input = args[0];
 const output = args[1];
+const jsonOutput = args[2];
 
 const inputPath = path.join(__dirname, input);
 const outputPath = path.join(__dirname, output);
+const jsonOutputPath = path.join(__dirname, jsonOutput);
 
 if (!fs.existsSync(inputPath)) {
   console.error(`Input file ${inputPath} does not exist`);
@@ -22,6 +24,46 @@ let last = "";
 let prefix = "                            ";
 
 fs.appendFileSync(outputPath, `${prefix}; Sector ${input}\n`)
+
+const DMStoDD = (coords) => {
+  const parts = coords.split(".")
+  let neg = false
+  if (parts[0].match(/^[SW]/)) {
+    neg = true
+  }
+  parts[0] = parts[0].replace("S", "")
+  parts[0] = parts[0].replace("W", "")
+  parts[0] = parts[0].replace("N", "")
+  parts[0] = parts[0].replace("E", "")
+
+  let dd =
+    parseFloat(parts[0]) +
+    parseFloat(parts[1]) / 60 +
+    parseFloat(parts[2] / 3600)
+  if (neg) dd = dd * -1
+  return dd
+}
+
+let geojson = {
+  "type": "FeatureCollection",
+  "name": `ZAN Sector ${input}`,
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [],
+      },
+    },
+  ]
+};
 
 const inputContent = fs.readFileSync(inputPath, 'utf8');
 inputContent.split(/\r?\n/).forEach((line) => {
@@ -57,6 +99,11 @@ inputContent.split(/\r?\n/).forEach((line) => {
       fs.appendFileSync(outputPath, newLine);
     }
     last = coords;
+    geojson.features[0].geometry.coordinates.push([
+      DMStoDD(coords.split(" ")[1]),
+      DMStoDD(coords.split(" ")[0]),
+    ])
   }
 });
 fs.appendFileSync(outputPath, `${prefix}${last} ${first}`);
+fs.writeFileSync(jsonOutputPath, JSON.stringify(geojson, null, 2));

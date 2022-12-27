@@ -1,0 +1,127 @@
+; Anchorage ARTCC (ZAN) POF File
+; Facility Engineer: Noah Perlman
+; Last Updated: 3/18/21 | AIRAC CYCLE: 2104
+; This file may only be distrubuted by the Pacific Control Facility and is provided "as is" and any modification is at your risk.
+
+;Change Log
+;UPDATED ANC ATCT TO REFLECT REAL WORLD
+
+
+;NAME = SECTOR NAME
+
+;RNAME = RADIO CALLSIGN
+
+;FREQ = FREQUENCY MATCH FOR THIS POSITION
+
+;SECID = SECTOR ID USED FOR HANDOFFS & ATC-ATC COMMS
+
+;ARTSTAG = POSITION SYMBOL ON THE VRC SCOPE
+
+;CALLPREFIX = PREFIX MATCH FOR THIS POSITION
+
+;CALLSUFFIX = SUFFIX MATCH FOR THIS POSITION
+
+;LINE1 = FIRST LINE TO DISPLAY ON EACH KEY IN VSCS
+
+;LINE2 = SECOND LINE TO DISPLAY ON EACH KEY IN VSCS
+
+;LSQUAWK = LOW END OF SQUAWK RANGE FOR THIS POSITION
+
+;HSQUAWK = HIGH END OF SQUAWK RANGE FOR THIS POSITION
+;
+;-----------------------------------
+
+;-----------------------------------
+
+;- NEIGHBORING POSITIONS
+
+Edmonton Center:Edmonton Center:132.850:EC:C:CZEG:CTR:EG:CTR::
+Edmonton Center:Edmonton Center:135.025:EF:C:CZEG:FSS:EW:FSS::
+
+ZAK Oceanic:San Francisco Radio:131.950:Z1:Z:ZAK:FSS:ZAK:FSS::
+ZAK Oceanic:San Francisco Radio:122.500:Z2:Z:ZAK:FSS:ZAK:FSS::
+ZAK Oceanic:San Francisco Radio:122.600:Z3:Z:ZAK:FSS:ZAK:FSS::
+ZAK Oceanic:San Francisco Radio:122.550:Z4:Z:ZAK:FSS:ZAK:FSS::
+ZAK Oceanic:San Francisco Radio:122.650:Z5:Z:ZAK:FSS:ZAK:FSS::
+ZAK Oceanic:San Francisco Radio:131.900:Z6:Z:ZAK:FSS:ZAK:FSS::
+
+Vancouver Center:Vancouver Center:133.700:VC:C:CZVR:CTR:ZVR:CTR
+
+East Russia:Eastern Russia Control:135.550:RC:C:FSS:ERC:FSS
+
+;-----------------------------------
+
+;- ENROUTE CONTROL
+; Sectors
+Sector 3:Anchorage Center:133.300:C03:C:ANC:CTR:ZAN:03:2201:2277
+Sector 4:Anchorage Center:135.300:C04:C:ANC:CTR:ZAN:04:2201:2277
+Sector 5:Anchorage Center:125.700:C05:C:ANC:CTR:ZAN:05:2201:2277
+Sector 6:Anchorage Center:132.300:C06:C:ANC:CTR:ZAN:06:2201:2277
+Sector 7:Anchorage Center:119.500:C07:C:ANC:CTR:ZAN:07:2201:2277
+Sector 8:Anchorage Center:126.100:C08:C:ANC:CTR:ZAN:08:2201:2277
+Sector 9:Anchorage Center:124.800:C09:C:ANC:CTR:ZAN:09:2201:2277
+Sector 10:Anchorage Center:126.400:C10:C:ZAN:FSS:ZAN:10:2201:2277
+Sector 11:Anchorage Center:119.100:C11:C:ANC:CTR:ZAN:11:2201:2277
+Sector 13:Anchorage Center:125.200:C13:C:ANC:CTR:ZAN:13:2201:2277
+Sector 14:Anchorage Center:119.300:C14:C:ANC:CTR:ZAN:14:2201:2277
+Sector 15:Anchorage Center:120.900:C15:C:ANC:CTR:ZAN:15:2201:2277
+Sector 16:Anchorage Center:132.700:C16:C:ANC:CTR:ZAN:16:2201:2277
+Sector 64:Anchorage Center:134.400:C64:C:ZAN:FSS:ZAN:64:2201:2277
+Sector 68:Anchorage Center:127.300:C68:C:ZAN:FSS:ZAN:68:2201:2277
+
+;A11 TRACON
+Anchorage North Radar:Anchorage Approach:118.600:NR:N:ANC:APP:NR:APP:3401:3437
+Anchorage South Radar:Anchorage Approach:126.400:SR:S:ANC:APP:SR:APP:4101:4137
+Anchorage Final Radar:Anchorage Approach:135.150:FR:F:ANC:APP:FR:APP:4141:4177
+
+;ANC ATCT
+Anchorage Tower:Anchorage Tower:118.300:AT:T:ANC:TWR:PANC:AT:0201:0677
+Lake Hood Tower:Lake Hood Tower:126.800:LH:T:LHD:TWR:PALH:AT:0201:0677
+Anchorage Ground:Anchorage Ground:121.900:AG:G:ANC:GND:PANC:AG:0201:0677
+Anchorage Delivery:Anchorage Clearance Delivery:119.400:AD:D:ANC:DEL:PANC:AD:0201:0677
+
+;EDF ATCT
+Elmendorf Tower:Elmendorf Tower:127.200:ET:T:EDF:TWR:PAED:ATCT:6331:6377
+Elmendorf Ground:Elmendorf Ground:121.800:EG:G:EDF:GND:PAED:GND:6331:6377
+Elmendorf Delivery:Elmendorf Clearance Delivery:128.800:ED:D:EDF:DEL:PAED:DEL:6331:6377
+
+;MRI ATCT
+Merrill Tower:Merrill Tower:126.000:MT:T:MRI:TWR:PAMR:ATCT:6241:6277
+Merrill Ground:Merrill Ground:121.700:MG:G:MRI:GND:PAMR:GND:6241:6277
+
+;FAI TRACON
+Fairbanks West Approach:Fairbanks Approach:125.350:FW:FW:FAI:APP:FW:APP:5701:5737
+Fairbanks East Approach:Fairbanks Approach:126.500:FE:D:FAI:DEP:FAI:DEP:5741:5777
+
+;FAI ATCT
+Fairbanks Tower:Fairbanks Tower:118.300:FT:T:FAI:TWR:PAFA:ATCT:7201:7237
+Fairbanks Ground:Fairbanks Ground:121.900:FG:G:FAI:GND:PAFA:GND:7201:7237
+Fairbanks Delivery:Fairbanks Clearance Delivery:127.600:FD:D:FAI:DEL:PAFA:DEL:7201:7237
+
+;EIL ATCT
+Eielson Tower:Eielson Tower:127.200:ET:T:EIL:TWR:PAEI:ATCT:5601:5777
+Eielson Ground:Eielson Ground:121.900:EG:G:EIL:GND:PAEI:GND:5601:5777
+
+;FBK ATCT
+Ladd Tower:Ladd Tower:125.000:WT:T:FBK:TWR:PAFB:ATCT:6301:6327
+Ladd Ground:Ladd Ground:121.700:WG:G:FBK:GND:PAFB:GND:6301:6327
+
+;JNU ATCT
+Juneau Tower:Juneau Tower:118.700:JT:T:JNU:TWR:PAJN:ATCT:7241:7277
+Juneau Ground:Juneau Ground:121.900:JG:G:JNU:GND:PAJN:GND:7241:7277
+
+;BET ATCT
+Bethel Tower:Bethel Tower:118.700:BT:T:BET:TWR:PABE:ATCT:7401:7420
+Bethel Ground:Bethel Ground:121.700:BG:G:BET:GND:PABE:GND:7401:7420
+
+;ENA ATCT
+Kenai Tower:Kenai Tower:121.300:KT:T:ENA:TWR:PAEN:ATCT:7421:7437
+Kenai Ground:Kenai Ground:121.900:KG:G:ENA:GND:PAEN:GND:7421:7437
+
+;AKN ATCT
+King Salmon Tower:King Salmon Tower:118.300:KT:T:AKN:TWR:PAKN:ATCT:7441:7457
+King Salmon Ground:Ground:121.900:KG:G:AKN:GND:PAKN:GND:7441:7457
+
+;ADQ ATCT
+Kodiak Tower:Kodiak Tower:119.800:KT:T:ADQ:TWR:PADQ:ATCT:7461:7477
+Kodiak Ground:Ground:121.900:KG:G:ADQ:GND:PADQ:GND:7461:7477
