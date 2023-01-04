@@ -5,52 +5,186 @@
       "Name": "Bethel Airport",
       "Identifier": "PABE",
       "Contractions": [
-        {"String": "5G", "Spoken": "FIVE G" },
-        {"String": "AFB", "Spoken": "AIR FORCE BASE" },
-        {"String": "APCH", "Spoken": "APPROACH" },
-        {"String": "APCH & RY INT CONTACT", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "APCHS", "Spoken": "APPROACHES" },
-        {"String": "APP", "Spoken": "APPROACH" },
-        {"String": "ARPT", "Spoken": "AIRPORT" },
-        {"String": "ARR", "Spoken": "ARRIVING" },
-        {"String": "ATTN", "Spoken": "ATTENTION" },
-        {"String": "AVBL", "Spoken": "AVAILABLE" },
-        {"String": "BTN", "Spoken": "BETWEEN" },
-        {"String": "BTWN", "Spoken": "BETWEEN" },
-        {"String": "CK", "Spoken": "CHECK" },
-        {"String": "CLNC", "Spoken": "CLEARANCE" },
-        {"String": "CLSD", "Spoken": "CLOSED" },
-        {"String": "CTC", "Spoken": "CONTACT" },
-        {"String": "CTR", "Spoken": "CENTER" },
-        {"String": "DEPG", "Spoken": "DEPARTING" },
-        {"String": "EFCT", "Spoken": "EFFECT" },
-        {"String": "EXP", "Spoken": "EXPECT" },
-        {"String": "EXPC", "Spoken": "EXPECT" },
-        {"String": "FM", "Spoken": "FROM" },
-        {"String": "FREQS", "Spoken": "FREQUENCIES" },
-        {"String": "FSS", "Spoken": "FLIGHT SERVICE STATION" },
-        {"String": "FT", "Spoken": "FOOT" },
-        {"String": "GND", "Spoken": "GROUND" },
-        {"String": "HAZDUS", "Spoken": "HAZARDOUS" },
-        {"String": "INFO", "Spoken": "INFORMATION" },
-        {"String": "INTXN", "Spoken": "INTERSECTION" },
-        {"String": "INVOF", "Spoken": "IN VICINITY OF" },
-        {"String": "LT", "Spoken": "LIGHT" },
-        {"String": "MULT", "Spoken": "MULTIPLE" },
-        {"String": "NSTD", "Spoken": "NON STANDARD" },
-        {"String": "OIC", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "OTS", "Spoken": "OUT OF SERVICE"},
-        {"String": "PRKG", "Spoken": "PARKING" },
-        {"String": "REQ", "Spoken": "REQUEST" },
-        {"String": "RNAV", "Spoken": "ARE NAV" },
-        {"String": "RWY", "Spoken": "RUNWAY" },
-        {"String": "RY", "Spoken": "RUNWAY" },
-        {"String": "SIMUL", "Spoken": "SIMULTANEOUS" },
-        {"String": "TURB", "Spoken": "TURBULENCE" },
-        {"String": "TWY", "Spoken": "TAXIWAY" },
-        {"String": "TWYS", "Spoken": "TAXIWAYS" },
-        {"String": "UNAUTH", "Spoken": "UNAUTHORIZED" },
-        {"String": "WX", "Spoken": "WEATHER" }
+        {
+          "String": "AFB",
+          "Spoken": "AIR FORCE BASE"
+        },
+        {
+          "String": "APCH",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "APCH & RY INT CONTACT",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "APCHS",
+          "Spoken": "APPROACHES"
+        },
+        {
+          "String": "APP",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "ARPT",
+          "Spoken": "AIRPORT"
+        },
+        {
+          "String": "ARR",
+          "Spoken": "ARRIVING"
+        },
+        {
+          "String": "ATTN",
+          "Spoken": "ATTENTION"
+        },
+        {
+          "String": "AVBL",
+          "Spoken": "AVAILABLE"
+        },
+        {
+          "String": "BTN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "BTWN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "CK",
+          "Spoken": "CHECK"
+        },
+        {
+          "String": "CLNC",
+          "Spoken": "CLEARANCE"
+        },
+        {
+          "String": "CLSD",
+          "Spoken": "CLOSED"
+        },
+        {
+          "String": "CTC",
+          "Spoken": "CONTACT"
+        },
+        {
+          "String": "CTR",
+          "Spoken": "CENTER"
+        },
+        {
+          "String": "DEPG",
+          "Spoken": "DEPG"
+        },
+        {
+          "String": "EFCT",
+          "Spoken": "EFFECT"
+        },
+        {
+          "String": "EXP",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "EXPC",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "FM",
+          "Spoken": "FROM"
+        },
+        {
+          "String": "FREQS",
+          "Spoken": "FREQUENCIES"
+        },
+        {
+          "String": "FSS",
+          "Spoken": "FLIGHT SERVICE STATION"
+        },
+        {
+          "String": "FT",
+          "Spoken": "FOOT"
+        },
+        {
+          "String": "GND",
+          "Spoken": "GROUND"
+        },
+        {
+          "String": "HAZDUS",
+          "Spoken": "HAZARDOUS"
+        },
+        {
+          "String": "INFO",
+          "Spoken": "INFORMATION"
+        },
+        {
+          "String": "INTXN",
+          "Spoken": "INTERSECTION"
+        },
+        {
+          "String": "INVOF",
+          "Spoken": "IN VICINITY OF"
+        },
+        {
+          "String": "LT",
+          "Spoken": "LIGHT"
+        },
+        {
+          "String": "MULT",
+          "Spoken": "MULTIPLE"
+        },
+        {
+          "String": "NSTD",
+          "Spoken": "NON STANDARD"
+        },
+        {
+          "String": "OIC",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "OTS",
+          "Spoken": "OUT OF SERVICE"
+        },
+        {
+          "String": "PRKG",
+          "Spoken": "PARKING"
+        },
+        {
+          "String": "REQ",
+          "Spoken": "REQUEST"
+        },
+        {
+          "String": "RNAV",
+          "Spoken": "ARE NAV"
+        },
+        {
+          "String": "RWY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "RY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "SIMUL",
+          "Spoken": "SIMULTANEOUS"
+        },
+        {
+          "String": "TURB",
+          "Spoken": "TURBULENCE"
+        },
+        {
+          "String": "TWY",
+          "Spoken": "TAXIWAY"
+        },
+        {
+          "String": "TWYS",
+          "Spoken": "TAXIWAYS"
+        },
+        {
+          "String": "UNAUTH",
+          "Spoken": "UNAUTHORIZED"
+        },
+        {
+          "String": "WX",
+          "Spoken": "WEATHER"
+        }
       ],
       "AtisFrequency": 19800,
       "ObservationTime": {
@@ -69,8 +203,8 @@
       "Presets": [
         {
           "Name": "SOUTH OPS VMC",
-          "AirportConditions": "ARRIVALS EXPECT VISUAL, ILS, OR GPS APCH RWYS 19L, 19R. DEPG RWYS 19L, 19R.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWYS 19L, 19R.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -83,8 +217,8 @@
         },
         {
           "Name": "SOUTH OPS IMC",
-          "AirportConditions": "ARRIVALS EXPECT ILS OR GPS APCH RWYS 19L, 19R. DEPG RWYS 19L, 19R.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "ILS APCH 19R AND GPS APCH 19L IN USE. LNDG AND DEPG RWYS 19L, 19R.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -97,8 +231,8 @@
         },
         {
           "Name": "NORTH OPS VMC",
-          "AirportConditions": "ARRIVALS EXPECT VISUAL OR GPS APCH RWYS 1L, 1R. DEPG RWYS 1L, 1R.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWYS 1L, 1R.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -111,8 +245,8 @@
         },
         {
           "Name": "NORTH OPS IMC",
-          "AirportConditions": "ARRIVALS EXPECT VOR OR GPS APCH RWY 1L, RNAV APCH RWY 1R. DEPG RWYS 1L, 1R.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "GPS APCH IN USE. LNDG AND DEPG RWYS 1L, 1R.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -142,52 +276,186 @@
       "Name": "Kodiak Airport",
       "Identifier": "PADQ",
       "Contractions": [
-        {"String": "5G", "Spoken": "FIVE G" },
-        {"String": "AFB", "Spoken": "AIR FORCE BASE" },
-        {"String": "APCH", "Spoken": "APPROACH" },
-        {"String": "APCH & RY INT CONTACT", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "APCHS", "Spoken": "APPROACHES" },
-        {"String": "APP", "Spoken": "APPROACH" },
-        {"String": "ARPT", "Spoken": "AIRPORT" },
-        {"String": "ARR", "Spoken": "ARRIVING" },
-        {"String": "ATTN", "Spoken": "ATTENTION" },
-        {"String": "AVBL", "Spoken": "AVAILABLE" },
-        {"String": "BTN", "Spoken": "BETWEEN" },
-        {"String": "BTWN", "Spoken": "BETWEEN" },
-        {"String": "CK", "Spoken": "CHECK" },
-        {"String": "CLNC", "Spoken": "CLEARANCE" },
-        {"String": "CLSD", "Spoken": "CLOSED" },
-        {"String": "CTC", "Spoken": "CONTACT" },
-        {"String": "CTR", "Spoken": "CENTER" },
-        {"String": "DEPG", "Spoken": "DEPARTING" },
-        {"String": "EFCT", "Spoken": "EFFECT" },
-        {"String": "EXP", "Spoken": "EXPECT" },
-        {"String": "EXPC", "Spoken": "EXPECT" },
-        {"String": "FM", "Spoken": "FROM" },
-        {"String": "FREQS", "Spoken": "FREQUENCIES" },
-        {"String": "FSS", "Spoken": "FLIGHT SERVICE STATION" },
-        {"String": "FT", "Spoken": "FOOT" },
-        {"String": "GND", "Spoken": "GROUND" },
-        {"String": "HAZDUS", "Spoken": "HAZARDOUS" },
-        {"String": "INFO", "Spoken": "INFORMATION" },
-        {"String": "INTXN", "Spoken": "INTERSECTION" },
-        {"String": "INVOF", "Spoken": "IN VICINITY OF" },
-        {"String": "LT", "Spoken": "LIGHT" },
-        {"String": "MULT", "Spoken": "MULTIPLE" },
-        {"String": "NSTD", "Spoken": "NON STANDARD" },
-        {"String": "OIC", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "OTS", "Spoken": "OUT OF SERVICE"},
-        {"String": "PRKG", "Spoken": "PARKING" },
-        {"String": "REQ", "Spoken": "REQUEST" },
-        {"String": "RNAV", "Spoken": "ARE NAV" },
-        {"String": "RWY", "Spoken": "RUNWAY" },
-        {"String": "RY", "Spoken": "RUNWAY" },
-        {"String": "SIMUL", "Spoken": "SIMULTANEOUS" },
-        {"String": "TURB", "Spoken": "TURBULENCE" },
-        {"String": "TWY", "Spoken": "TAXIWAY" },
-        {"String": "TWYS", "Spoken": "TAXIWAYS" },
-        {"String": "UNAUTH", "Spoken": "UNAUTHORIZED" },
-        {"String": "WX", "Spoken": "WEATHER" }
+        {
+          "String": "AFB",
+          "Spoken": "AIR FORCE BASE"
+        },
+        {
+          "String": "APCH",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "APCH & RY INT CONTACT",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "APCHS",
+          "Spoken": "APPROACHES"
+        },
+        {
+          "String": "APP",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "ARPT",
+          "Spoken": "AIRPORT"
+        },
+        {
+          "String": "ARR",
+          "Spoken": "ARRIVING"
+        },
+        {
+          "String": "ATTN",
+          "Spoken": "ATTENTION"
+        },
+        {
+          "String": "AVBL",
+          "Spoken": "AVAILABLE"
+        },
+        {
+          "String": "BTN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "BTWN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "CK",
+          "Spoken": "CHECK"
+        },
+        {
+          "String": "CLNC",
+          "Spoken": "CLEARANCE"
+        },
+        {
+          "String": "CLSD",
+          "Spoken": "CLOSED"
+        },
+        {
+          "String": "CTC",
+          "Spoken": "CONTACT"
+        },
+        {
+          "String": "CTR",
+          "Spoken": "CENTER"
+        },
+        {
+          "String": "DEPG",
+          "Spoken": "DEPG"
+        },
+        {
+          "String": "EFCT",
+          "Spoken": "EFFECT"
+        },
+        {
+          "String": "EXP",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "EXPC",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "FM",
+          "Spoken": "FROM"
+        },
+        {
+          "String": "FREQS",
+          "Spoken": "FREQUENCIES"
+        },
+        {
+          "String": "FSS",
+          "Spoken": "FLIGHT SERVICE STATION"
+        },
+        {
+          "String": "FT",
+          "Spoken": "FOOT"
+        },
+        {
+          "String": "GND",
+          "Spoken": "GROUND"
+        },
+        {
+          "String": "HAZDUS",
+          "Spoken": "HAZARDOUS"
+        },
+        {
+          "String": "INFO",
+          "Spoken": "INFORMATION"
+        },
+        {
+          "String": "INTXN",
+          "Spoken": "INTERSECTION"
+        },
+        {
+          "String": "INVOF",
+          "Spoken": "IN VICINITY OF"
+        },
+        {
+          "String": "LT",
+          "Spoken": "LIGHT"
+        },
+        {
+          "String": "MULT",
+          "Spoken": "MULTIPLE"
+        },
+        {
+          "String": "NSTD",
+          "Spoken": "NON STANDARD"
+        },
+        {
+          "String": "OIC",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "OTS",
+          "Spoken": "OUT OF SERVICE"
+        },
+        {
+          "String": "PRKG",
+          "Spoken": "PARKING"
+        },
+        {
+          "String": "REQ",
+          "Spoken": "REQUEST"
+        },
+        {
+          "String": "RNAV",
+          "Spoken": "ARE NAV"
+        },
+        {
+          "String": "RWY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "RY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "SIMUL",
+          "Spoken": "SIMULTANEOUS"
+        },
+        {
+          "String": "TURB",
+          "Spoken": "TURBULENCE"
+        },
+        {
+          "String": "TWY",
+          "Spoken": "TAXIWAY"
+        },
+        {
+          "String": "TWYS",
+          "Spoken": "TAXIWAYS"
+        },
+        {
+          "String": "UNAUTH",
+          "Spoken": "UNAUTHORIZED"
+        },
+        {
+          "String": "WX",
+          "Spoken": "WEATHER"
+        }
       ],
       "AtisFrequency": 34450,
       "ObservationTime": {
@@ -206,8 +474,8 @@
       "Presets": [
         {
           "Name": "NORTHWEST OPS VMC (PRIMARY)",
-          "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWYS 26, 29. DEPG RWYS 26, 29.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWYS 26, 29.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -220,8 +488,8 @@
         },
         {
           "Name": "NORTHWEST OPS IMC (PRIMARY)",
-          "AirportConditions": "ARRIVALS EXPECT ILS, VOR, OR RNAV APCH RWY 26. DEPG RWYS 26, 29.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "ILS APCH IN USE. LNDG RWY 26, DEPG RWYS 26, 29.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -234,8 +502,8 @@
         },
         {
           "Name": "EAST OPS VMC",
-          "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWYS 08, 11. DEPG RWYS 08, 11.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWYS 08, 11.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -248,8 +516,8 @@
         },
         {
           "Name": "EAST OPS IMC (ODO)",
-          "AirportConditions": "ARRIVALS EXPECT ILS, VOR, OR RNAV APCH RWY 26. DEPG RWY 08, 11.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "ILS APCH IN USE. LNDG RWY 26, DEPG RWY 08, 11.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -279,52 +547,186 @@
       "Name": "Elmendorf AFB",
       "Identifier": "PAED",
       "Contractions": [
-        {"String": "5G", "Spoken": "FIVE G" },
-        {"String": "AFB", "Spoken": "AIR FORCE BASE" },
-        {"String": "APCH", "Spoken": "APPROACH" },
-        {"String": "APCH & RY INT CONTACT", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "APCHS", "Spoken": "APPROACHES" },
-        {"String": "APP", "Spoken": "APPROACH" },
-        {"String": "ARPT", "Spoken": "AIRPORT" },
-        {"String": "ARR", "Spoken": "ARRIVING" },
-        {"String": "ATTN", "Spoken": "ATTENTION" },
-        {"String": "AVBL", "Spoken": "AVAILABLE" },
-        {"String": "BTN", "Spoken": "BETWEEN" },
-        {"String": "BTWN", "Spoken": "BETWEEN" },
-        {"String": "CK", "Spoken": "CHECK" },
-        {"String": "CLNC", "Spoken": "CLEARANCE" },
-        {"String": "CLSD", "Spoken": "CLOSED" },
-        {"String": "CTC", "Spoken": "CONTACT" },
-        {"String": "CTR", "Spoken": "CENTER" },
-        {"String": "DEPG", "Spoken": "DEPARTING" },
-        {"String": "EFCT", "Spoken": "EFFECT" },
-        {"String": "EXP", "Spoken": "EXPECT" },
-        {"String": "EXPC", "Spoken": "EXPECT" },
-        {"String": "FM", "Spoken": "FROM" },
-        {"String": "FREQS", "Spoken": "FREQUENCIES" },
-        {"String": "FSS", "Spoken": "FLIGHT SERVICE STATION" },
-        {"String": "FT", "Spoken": "FOOT" },
-        {"String": "GND", "Spoken": "GROUND" },
-        {"String": "HAZDUS", "Spoken": "HAZARDOUS" },
-        {"String": "INFO", "Spoken": "INFORMATION" },
-        {"String": "INTXN", "Spoken": "INTERSECTION" },
-        {"String": "INVOF", "Spoken": "IN VICINITY OF" },
-        {"String": "LT", "Spoken": "LIGHT" },
-        {"String": "MULT", "Spoken": "MULTIPLE" },
-        {"String": "NSTD", "Spoken": "NON STANDARD" },
-        {"String": "OIC", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "OTS", "Spoken": "OUT OF SERVICE"},
-        {"String": "PRKG", "Spoken": "PARKING" },
-        {"String": "REQ", "Spoken": "REQUEST" },
-        {"String": "RNAV", "Spoken": "ARE NAV" },
-        {"String": "RWY", "Spoken": "RUNWAY" },
-        {"String": "RY", "Spoken": "RUNWAY" },
-        {"String": "SIMUL", "Spoken": "SIMULTANEOUS" },
-        {"String": "TURB", "Spoken": "TURBULENCE" },
-        {"String": "TWY", "Spoken": "TAXIWAY" },
-        {"String": "TWYS", "Spoken": "TAXIWAYS" },
-        {"String": "UNAUTH", "Spoken": "UNAUTHORIZED" },
-        {"String": "WX", "Spoken": "WEATHER" }
+        {
+          "String": "AFB",
+          "Spoken": "AIR FORCE BASE"
+        },
+        {
+          "String": "APCH",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "APCH & RY INT CONTACT",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "APCHS",
+          "Spoken": "APPROACHES"
+        },
+        {
+          "String": "APP",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "ARPT",
+          "Spoken": "AIRPORT"
+        },
+        {
+          "String": "ARR",
+          "Spoken": "ARRIVING"
+        },
+        {
+          "String": "ATTN",
+          "Spoken": "ATTENTION"
+        },
+        {
+          "String": "AVBL",
+          "Spoken": "AVAILABLE"
+        },
+        {
+          "String": "BTN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "BTWN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "CK",
+          "Spoken": "CHECK"
+        },
+        {
+          "String": "CLNC",
+          "Spoken": "CLEARANCE"
+        },
+        {
+          "String": "CLSD",
+          "Spoken": "CLOSED"
+        },
+        {
+          "String": "CTC",
+          "Spoken": "CONTACT"
+        },
+        {
+          "String": "CTR",
+          "Spoken": "CENTER"
+        },
+        {
+          "String": "DEPG",
+          "Spoken": "DEPG"
+        },
+        {
+          "String": "EFCT",
+          "Spoken": "EFFECT"
+        },
+        {
+          "String": "EXP",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "EXPC",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "FM",
+          "Spoken": "FROM"
+        },
+        {
+          "String": "FREQS",
+          "Spoken": "FREQUENCIES"
+        },
+        {
+          "String": "FSS",
+          "Spoken": "FLIGHT SERVICE STATION"
+        },
+        {
+          "String": "FT",
+          "Spoken": "FOOT"
+        },
+        {
+          "String": "GND",
+          "Spoken": "GROUND"
+        },
+        {
+          "String": "HAZDUS",
+          "Spoken": "HAZARDOUS"
+        },
+        {
+          "String": "INFO",
+          "Spoken": "INFORMATION"
+        },
+        {
+          "String": "INTXN",
+          "Spoken": "INTERSECTION"
+        },
+        {
+          "String": "INVOF",
+          "Spoken": "IN VICINITY OF"
+        },
+        {
+          "String": "LT",
+          "Spoken": "LIGHT"
+        },
+        {
+          "String": "MULT",
+          "Spoken": "MULTIPLE"
+        },
+        {
+          "String": "NSTD",
+          "Spoken": "NON STANDARD"
+        },
+        {
+          "String": "OIC",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "OTS",
+          "Spoken": "OUT OF SERVICE"
+        },
+        {
+          "String": "PRKG",
+          "Spoken": "PARKING"
+        },
+        {
+          "String": "REQ",
+          "Spoken": "REQUEST"
+        },
+        {
+          "String": "RNAV",
+          "Spoken": "ARE NAV"
+        },
+        {
+          "String": "RWY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "RY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "SIMUL",
+          "Spoken": "SIMULTANEOUS"
+        },
+        {
+          "String": "TURB",
+          "Spoken": "TURBULENCE"
+        },
+        {
+          "String": "TWY",
+          "Spoken": "TAXIWAY"
+        },
+        {
+          "String": "TWYS",
+          "Spoken": "TAXIWAYS"
+        },
+        {
+          "String": "UNAUTH",
+          "Spoken": "UNAUTHORIZED"
+        },
+        {
+          "String": "WX",
+          "Spoken": "WEATHER"
+        }
       ],
       "AtisFrequency": 24300,
       "ObservationTime": {
@@ -343,8 +745,8 @@
       "Presets": [
         {
           "Name": "EAST OPS VMC (PRIMARY)",
-          "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 06. DEPG RWY 06.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWY 06.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -357,8 +759,8 @@
         },
         {
           "Name": "EAST OPS IMC (PRIMARY)",
-          "AirportConditions": "ARRIVALS EXPECT ILS OR RNAV APCH RWY 06. DEPG RWY 06.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "ILS APCH IN USE. LNDG AND DEPG RWY 06.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -371,8 +773,8 @@
         },
         {
           "Name": "WEST OPS VMC",
-          "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 24. DEPG RWY 24.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWY 24.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -385,8 +787,8 @@
         },
         {
           "Name": "WEST (SOUTH) OPS IMC",
-          "AirportConditions": "ARRIVALS EXPECT TACAN APCH RWY 16. DEPG RWY 24.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "TACAN APCH IN USE. LNDG AND DEPG RWY 24.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -416,52 +818,186 @@
       "Name": "Eielson AFB",
       "Identifier": "PAEI",
       "Contractions": [
-        {"String": "5G", "Spoken": "FIVE G" },
-        {"String": "AFB", "Spoken": "AIR FORCE BASE" },
-        {"String": "APCH", "Spoken": "APPROACH" },
-        {"String": "APCH & RY INT CONTACT", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "APCHS", "Spoken": "APPROACHES" },
-        {"String": "APP", "Spoken": "APPROACH" },
-        {"String": "ARPT", "Spoken": "AIRPORT" },
-        {"String": "ARR", "Spoken": "ARRIVING" },
-        {"String": "ATTN", "Spoken": "ATTENTION" },
-        {"String": "AVBL", "Spoken": "AVAILABLE" },
-        {"String": "BTN", "Spoken": "BETWEEN" },
-        {"String": "BTWN", "Spoken": "BETWEEN" },
-        {"String": "CK", "Spoken": "CHECK" },
-        {"String": "CLNC", "Spoken": "CLEARANCE" },
-        {"String": "CLSD", "Spoken": "CLOSED" },
-        {"String": "CTC", "Spoken": "CONTACT" },
-        {"String": "CTR", "Spoken": "CENTER" },
-        {"String": "DEPG", "Spoken": "DEPARTING" },
-        {"String": "EFCT", "Spoken": "EFFECT" },
-        {"String": "EXP", "Spoken": "EXPECT" },
-        {"String": "EXPC", "Spoken": "EXPECT" },
-        {"String": "FM", "Spoken": "FROM" },
-        {"String": "FREQS", "Spoken": "FREQUENCIES" },
-        {"String": "FSS", "Spoken": "FLIGHT SERVICE STATION" },
-        {"String": "FT", "Spoken": "FOOT" },
-        {"String": "GND", "Spoken": "GROUND" },
-        {"String": "HAZDUS", "Spoken": "HAZARDOUS" },
-        {"String": "INFO", "Spoken": "INFORMATION" },
-        {"String": "INTXN", "Spoken": "INTERSECTION" },
-        {"String": "INVOF", "Spoken": "IN VICINITY OF" },
-        {"String": "LT", "Spoken": "LIGHT" },
-        {"String": "MULT", "Spoken": "MULTIPLE" },
-        {"String": "NSTD", "Spoken": "NON STANDARD" },
-        {"String": "OIC", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "OTS", "Spoken": "OUT OF SERVICE"},
-        {"String": "PRKG", "Spoken": "PARKING" },
-        {"String": "REQ", "Spoken": "REQUEST" },
-        {"String": "RNAV", "Spoken": "ARE NAV" },
-        {"String": "RWY", "Spoken": "RUNWAY" },
-        {"String": "RY", "Spoken": "RUNWAY" },
-        {"String": "SIMUL", "Spoken": "SIMULTANEOUS" },
-        {"String": "TURB", "Spoken": "TURBULENCE" },
-        {"String": "TWY", "Spoken": "TAXIWAY" },
-        {"String": "TWYS", "Spoken": "TAXIWAYS" },
-        {"String": "UNAUTH", "Spoken": "UNAUTHORIZED" },
-        {"String": "WX", "Spoken": "WEATHER" }
+        {
+          "String": "AFB",
+          "Spoken": "AIR FORCE BASE"
+        },
+        {
+          "String": "APCH",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "APCH & RY INT CONTACT",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "APCHS",
+          "Spoken": "APPROACHES"
+        },
+        {
+          "String": "APP",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "ARPT",
+          "Spoken": "AIRPORT"
+        },
+        {
+          "String": "ARR",
+          "Spoken": "ARRIVING"
+        },
+        {
+          "String": "ATTN",
+          "Spoken": "ATTENTION"
+        },
+        {
+          "String": "AVBL",
+          "Spoken": "AVAILABLE"
+        },
+        {
+          "String": "BTN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "BTWN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "CK",
+          "Spoken": "CHECK"
+        },
+        {
+          "String": "CLNC",
+          "Spoken": "CLEARANCE"
+        },
+        {
+          "String": "CLSD",
+          "Spoken": "CLOSED"
+        },
+        {
+          "String": "CTC",
+          "Spoken": "CONTACT"
+        },
+        {
+          "String": "CTR",
+          "Spoken": "CENTER"
+        },
+        {
+          "String": "DEPG",
+          "Spoken": "DEPG"
+        },
+        {
+          "String": "EFCT",
+          "Spoken": "EFFECT"
+        },
+        {
+          "String": "EXP",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "EXPC",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "FM",
+          "Spoken": "FROM"
+        },
+        {
+          "String": "FREQS",
+          "Spoken": "FREQUENCIES"
+        },
+        {
+          "String": "FSS",
+          "Spoken": "FLIGHT SERVICE STATION"
+        },
+        {
+          "String": "FT",
+          "Spoken": "FOOT"
+        },
+        {
+          "String": "GND",
+          "Spoken": "GROUND"
+        },
+        {
+          "String": "HAZDUS",
+          "Spoken": "HAZARDOUS"
+        },
+        {
+          "String": "INFO",
+          "Spoken": "INFORMATION"
+        },
+        {
+          "String": "INTXN",
+          "Spoken": "INTERSECTION"
+        },
+        {
+          "String": "INVOF",
+          "Spoken": "IN VICINITY OF"
+        },
+        {
+          "String": "LT",
+          "Spoken": "LIGHT"
+        },
+        {
+          "String": "MULT",
+          "Spoken": "MULTIPLE"
+        },
+        {
+          "String": "NSTD",
+          "Spoken": "NON STANDARD"
+        },
+        {
+          "String": "OIC",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "OTS",
+          "Spoken": "OUT OF SERVICE"
+        },
+        {
+          "String": "PRKG",
+          "Spoken": "PARKING"
+        },
+        {
+          "String": "REQ",
+          "Spoken": "REQUEST"
+        },
+        {
+          "String": "RNAV",
+          "Spoken": "ARE NAV"
+        },
+        {
+          "String": "RWY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "RY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "SIMUL",
+          "Spoken": "SIMULTANEOUS"
+        },
+        {
+          "String": "TURB",
+          "Spoken": "TURBULENCE"
+        },
+        {
+          "String": "TWY",
+          "Spoken": "TAXIWAY"
+        },
+        {
+          "String": "TWYS",
+          "Spoken": "TAXIWAYS"
+        },
+        {
+          "String": "UNAUTH",
+          "Spoken": "UNAUTHORIZED"
+        },
+        {
+          "String": "WX",
+          "Spoken": "WEATHER"
+        }
       ],
       "AtisFrequency": 19900,
       "ObservationTime": {
@@ -480,8 +1016,8 @@
       "Presets": [
         {
           "Name": "SOUTH OPS VMC (PRIMARY)",
-          "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 14. DEPG RWY 14.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWY 14.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -494,8 +1030,8 @@
         },
         {
           "Name": "SOUTH OPS IMC (PRIMARY)",
-          "AirportConditions": "ARRIVALS EXPECT ILS OR RNAV APCH RWY 14. TACAN RWY 14 APCH AVBL ON REQUEST. DEPG RWY 14.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "ILS APCH IN USE. LNDG AND DEPG RWY 14.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -508,8 +1044,8 @@
         },
         {
           "Name": "NORTH OPS VMC",
-          "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 32. DEPG RWY 32.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWY 32.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -522,8 +1058,8 @@
         },
         {
           "Name": "NORTH OPS IMC",
-          "AirportConditions": "ARRIVALS EXPECT ILS OR RNAV APCH RWY 32. TACAN RWY 32 APCH AVBL ON REQUEST. DEPG RWY 32.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "ILS APCH IN USE. LNDG AND DEPG RWY 32.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -553,52 +1089,186 @@
       "Name": "Kenai Municipal Airport",
       "Identifier": "PAEN",
       "Contractions": [
-        {"String": "5G", "Spoken": "FIVE G" },
-        {"String": "AFB", "Spoken": "AIR FORCE BASE" },
-        {"String": "APCH", "Spoken": "APPROACH" },
-        {"String": "APCH & RY INT CONTACT", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "APCHS", "Spoken": "APPROACHES" },
-        {"String": "APP", "Spoken": "APPROACH" },
-        {"String": "ARPT", "Spoken": "AIRPORT" },
-        {"String": "ARR", "Spoken": "ARRIVING" },
-        {"String": "ATTN", "Spoken": "ATTENTION" },
-        {"String": "AVBL", "Spoken": "AVAILABLE" },
-        {"String": "BTN", "Spoken": "BETWEEN" },
-        {"String": "BTWN", "Spoken": "BETWEEN" },
-        {"String": "CK", "Spoken": "CHECK" },
-        {"String": "CLNC", "Spoken": "CLEARANCE" },
-        {"String": "CLSD", "Spoken": "CLOSED" },
-        {"String": "CTC", "Spoken": "CONTACT" },
-        {"String": "CTR", "Spoken": "CENTER" },
-        {"String": "DEPG", "Spoken": "DEPARTING" },
-        {"String": "EFCT", "Spoken": "EFFECT" },
-        {"String": "EXP", "Spoken": "EXPECT" },
-        {"String": "EXPC", "Spoken": "EXPECT" },
-        {"String": "FM", "Spoken": "FROM" },
-        {"String": "FREQS", "Spoken": "FREQUENCIES" },
-        {"String": "FSS", "Spoken": "FLIGHT SERVICE STATION" },
-        {"String": "FT", "Spoken": "FOOT" },
-        {"String": "GND", "Spoken": "GROUND" },
-        {"String": "HAZDUS", "Spoken": "HAZARDOUS" },
-        {"String": "INFO", "Spoken": "INFORMATION" },
-        {"String": "INTXN", "Spoken": "INTERSECTION" },
-        {"String": "INVOF", "Spoken": "IN VICINITY OF" },
-        {"String": "LT", "Spoken": "LIGHT" },
-        {"String": "MULT", "Spoken": "MULTIPLE" },
-        {"String": "NSTD", "Spoken": "NON STANDARD" },
-        {"String": "OIC", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "OTS", "Spoken": "OUT OF SERVICE"},
-        {"String": "PRKG", "Spoken": "PARKING" },
-        {"String": "REQ", "Spoken": "REQUEST" },
-        {"String": "RNAV", "Spoken": "ARE NAV" },
-        {"String": "RWY", "Spoken": "RUNWAY" },
-        {"String": "RY", "Spoken": "RUNWAY" },
-        {"String": "SIMUL", "Spoken": "SIMULTANEOUS" },
-        {"String": "TURB", "Spoken": "TURBULENCE" },
-        {"String": "TWY", "Spoken": "TAXIWAY" },
-        {"String": "TWYS", "Spoken": "TAXIWAYS" },
-        {"String": "UNAUTH", "Spoken": "UNAUTHORIZED" },
-        {"String": "WX", "Spoken": "WEATHER" }
+        {
+          "String": "AFB",
+          "Spoken": "AIR FORCE BASE"
+        },
+        {
+          "String": "APCH",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "APCH & RY INT CONTACT",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "APCHS",
+          "Spoken": "APPROACHES"
+        },
+        {
+          "String": "APP",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "ARPT",
+          "Spoken": "AIRPORT"
+        },
+        {
+          "String": "ARR",
+          "Spoken": "ARRIVING"
+        },
+        {
+          "String": "ATTN",
+          "Spoken": "ATTENTION"
+        },
+        {
+          "String": "AVBL",
+          "Spoken": "AVAILABLE"
+        },
+        {
+          "String": "BTN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "BTWN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "CK",
+          "Spoken": "CHECK"
+        },
+        {
+          "String": "CLNC",
+          "Spoken": "CLEARANCE"
+        },
+        {
+          "String": "CLSD",
+          "Spoken": "CLOSED"
+        },
+        {
+          "String": "CTC",
+          "Spoken": "CONTACT"
+        },
+        {
+          "String": "CTR",
+          "Spoken": "CENTER"
+        },
+        {
+          "String": "DEPG",
+          "Spoken": "DEPG"
+        },
+        {
+          "String": "EFCT",
+          "Spoken": "EFFECT"
+        },
+        {
+          "String": "EXP",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "EXPC",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "FM",
+          "Spoken": "FROM"
+        },
+        {
+          "String": "FREQS",
+          "Spoken": "FREQUENCIES"
+        },
+        {
+          "String": "FSS",
+          "Spoken": "FLIGHT SERVICE STATION"
+        },
+        {
+          "String": "FT",
+          "Spoken": "FOOT"
+        },
+        {
+          "String": "GND",
+          "Spoken": "GROUND"
+        },
+        {
+          "String": "HAZDUS",
+          "Spoken": "HAZARDOUS"
+        },
+        {
+          "String": "INFO",
+          "Spoken": "INFORMATION"
+        },
+        {
+          "String": "INTXN",
+          "Spoken": "INTERSECTION"
+        },
+        {
+          "String": "INVOF",
+          "Spoken": "IN VICINITY OF"
+        },
+        {
+          "String": "LT",
+          "Spoken": "LIGHT"
+        },
+        {
+          "String": "MULT",
+          "Spoken": "MULTIPLE"
+        },
+        {
+          "String": "NSTD",
+          "Spoken": "NON STANDARD"
+        },
+        {
+          "String": "OIC",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "OTS",
+          "Spoken": "OUT OF SERVICE"
+        },
+        {
+          "String": "PRKG",
+          "Spoken": "PARKING"
+        },
+        {
+          "String": "REQ",
+          "Spoken": "REQUEST"
+        },
+        {
+          "String": "RNAV",
+          "Spoken": "ARE NAV"
+        },
+        {
+          "String": "RWY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "RY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "SIMUL",
+          "Spoken": "SIMULTANEOUS"
+        },
+        {
+          "String": "TURB",
+          "Spoken": "TURBULENCE"
+        },
+        {
+          "String": "TWY",
+          "Spoken": "TAXIWAY"
+        },
+        {
+          "String": "TWYS",
+          "Spoken": "TAXIWAYS"
+        },
+        {
+          "String": "UNAUTH",
+          "Spoken": "UNAUTHORIZED"
+        },
+        {
+          "String": "WX",
+          "Spoken": "WEATHER"
+        }
       ],
       "AtisFrequency": 33350,
       "ObservationTime": {
@@ -617,8 +1287,8 @@
       "Presets": [
         {
           "Name": "NORTHEAST OPS VMC (PRIMARY)",
-          "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 02L. DEPG RWY 02L. RWYS 02W, 02R AVBL ON REQUEST.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWY 02L.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -631,8 +1301,8 @@
         },
         {
           "Name": "NORTHEAST OPS IMC (PRIMARY)",
-          "AirportConditions": "ARRIVALS EXPECT VOR OR RNAV APCH RWY 02L. DEPG RWY 02L.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "GPS APCH IN USE. LNDG AND DEPG RWY 02L.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -645,8 +1315,8 @@
         },
         {
           "Name": "SOUTHWEST OPS VMC",
-          "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 20R. DEPG RWY 20R. RWYS 20W, 20L AVBL ON REQUEST.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWY 20R.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -659,8 +1329,8 @@
         },
         {
           "Name": "SOUTHWEST OPS IMC",
-          "AirportConditions": "ARRIVALS EXPECT ILS, VOR, OR RNAV APCH RWY 20R. DEPG RWY 20R.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "ILS APCH IN USE. LNDG AND DEPG RWY 20R.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -690,52 +1360,186 @@
       "Name": "Fairbanks International Airport",
       "Identifier": "PAFA",
       "Contractions": [
-        {"String": "5G", "Spoken": "FIVE G" },
-        {"String": "AFB", "Spoken": "AIR FORCE BASE" },
-        {"String": "APCH", "Spoken": "APPROACH" },
-        {"String": "APCH & RY INT CONTACT", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "APCHS", "Spoken": "APPROACHES" },
-        {"String": "APP", "Spoken": "APPROACH" },
-        {"String": "ARPT", "Spoken": "AIRPORT" },
-        {"String": "ARR", "Spoken": "ARRIVING" },
-        {"String": "ATTN", "Spoken": "ATTENTION" },
-        {"String": "AVBL", "Spoken": "AVAILABLE" },
-        {"String": "BTN", "Spoken": "BETWEEN" },
-        {"String": "BTWN", "Spoken": "BETWEEN" },
-        {"String": "CK", "Spoken": "CHECK" },
-        {"String": "CLNC", "Spoken": "CLEARANCE" },
-        {"String": "CLSD", "Spoken": "CLOSED" },
-        {"String": "CTC", "Spoken": "CONTACT" },
-        {"String": "CTR", "Spoken": "CENTER" },
-        {"String": "DEPG", "Spoken": "DEPARTING" },
-        {"String": "EFCT", "Spoken": "EFFECT" },
-        {"String": "EXP", "Spoken": "EXPECT" },
-        {"String": "EXPC", "Spoken": "EXPECT" },
-        {"String": "FM", "Spoken": "FROM" },
-        {"String": "FREQS", "Spoken": "FREQUENCIES" },
-        {"String": "FSS", "Spoken": "FLIGHT SERVICE STATION" },
-        {"String": "FT", "Spoken": "FOOT" },
-        {"String": "GND", "Spoken": "GROUND" },
-        {"String": "HAZDUS", "Spoken": "HAZARDOUS" },
-        {"String": "INFO", "Spoken": "INFORMATION" },
-        {"String": "INTXN", "Spoken": "INTERSECTION" },
-        {"String": "INVOF", "Spoken": "IN VICINITY OF" },
-        {"String": "LT", "Spoken": "LIGHT" },
-        {"String": "MULT", "Spoken": "MULTIPLE" },
-        {"String": "NSTD", "Spoken": "NON STANDARD" },
-        {"String": "OIC", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "OTS", "Spoken": "OUT OF SERVICE"},
-        {"String": "PRKG", "Spoken": "PARKING" },
-        {"String": "REQ", "Spoken": "REQUEST" },
-        {"String": "RNAV", "Spoken": "ARE NAV" },
-        {"String": "RWY", "Spoken": "RUNWAY" },
-        {"String": "RY", "Spoken": "RUNWAY" },
-        {"String": "SIMUL", "Spoken": "SIMULTANEOUS" },
-        {"String": "TURB", "Spoken": "TURBULENCE" },
-        {"String": "TWY", "Spoken": "TAXIWAY" },
-        {"String": "TWYS", "Spoken": "TAXIWAYS" },
-        {"String": "UNAUTH", "Spoken": "UNAUTHORIZED" },
-        {"String": "WX", "Spoken": "WEATHER" }
+        {
+          "String": "AFB",
+          "Spoken": "AIR FORCE BASE"
+        },
+        {
+          "String": "APCH",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "APCH & RY INT CONTACT",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "APCHS",
+          "Spoken": "APPROACHES"
+        },
+        {
+          "String": "APP",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "ARPT",
+          "Spoken": "AIRPORT"
+        },
+        {
+          "String": "ARR",
+          "Spoken": "ARRIVING"
+        },
+        {
+          "String": "ATTN",
+          "Spoken": "ATTENTION"
+        },
+        {
+          "String": "AVBL",
+          "Spoken": "AVAILABLE"
+        },
+        {
+          "String": "BTN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "BTWN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "CK",
+          "Spoken": "CHECK"
+        },
+        {
+          "String": "CLNC",
+          "Spoken": "CLEARANCE"
+        },
+        {
+          "String": "CLSD",
+          "Spoken": "CLOSED"
+        },
+        {
+          "String": "CTC",
+          "Spoken": "CONTACT"
+        },
+        {
+          "String": "CTR",
+          "Spoken": "CENTER"
+        },
+        {
+          "String": "DEPG",
+          "Spoken": "DEPG"
+        },
+        {
+          "String": "EFCT",
+          "Spoken": "EFFECT"
+        },
+        {
+          "String": "EXP",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "EXPC",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "FM",
+          "Spoken": "FROM"
+        },
+        {
+          "String": "FREQS",
+          "Spoken": "FREQUENCIES"
+        },
+        {
+          "String": "FSS",
+          "Spoken": "FLIGHT SERVICE STATION"
+        },
+        {
+          "String": "FT",
+          "Spoken": "FOOT"
+        },
+        {
+          "String": "GND",
+          "Spoken": "GROUND"
+        },
+        {
+          "String": "HAZDUS",
+          "Spoken": "HAZARDOUS"
+        },
+        {
+          "String": "INFO",
+          "Spoken": "INFORMATION"
+        },
+        {
+          "String": "INTXN",
+          "Spoken": "INTERSECTION"
+        },
+        {
+          "String": "INVOF",
+          "Spoken": "IN VICINITY OF"
+        },
+        {
+          "String": "LT",
+          "Spoken": "LIGHT"
+        },
+        {
+          "String": "MULT",
+          "Spoken": "MULTIPLE"
+        },
+        {
+          "String": "NSTD",
+          "Spoken": "NON STANDARD"
+        },
+        {
+          "String": "OIC",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "OTS",
+          "Spoken": "OUT OF SERVICE"
+        },
+        {
+          "String": "PRKG",
+          "Spoken": "PARKING"
+        },
+        {
+          "String": "REQ",
+          "Spoken": "REQUEST"
+        },
+        {
+          "String": "RNAV",
+          "Spoken": "ARE NAV"
+        },
+        {
+          "String": "RWY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "RY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "SIMUL",
+          "Spoken": "SIMULTANEOUS"
+        },
+        {
+          "String": "TURB",
+          "Spoken": "TURBULENCE"
+        },
+        {
+          "String": "TWY",
+          "Spoken": "TAXIWAY"
+        },
+        {
+          "String": "TWYS",
+          "Spoken": "TAXIWAYS"
+        },
+        {
+          "String": "UNAUTH",
+          "Spoken": "UNAUTHORIZED"
+        },
+        {
+          "String": "WX",
+          "Spoken": "WEATHER"
+        }
       ],
       "AtisFrequency": 24400,
       "ObservationTime": {
@@ -754,8 +1558,8 @@
       "Presets": [
         {
           "Name": "SOUTH OPS (PRIMARY)",
-          "AirportConditions": "ILS RWY 2L APCH IN USE. LDG AND DEPTG RUNWAY 2L AND 2R.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "ILS, RNAV APCH IN USE. LNDG AND DEPG RWY 20L, 20R.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -768,8 +1572,8 @@
         },
         {
           "Name": "NORTH OPS",
-          "AirportConditions": "ILS RWY 20R APCH IN USE. LDG AND DEPTG RUNWAY 20R AND 20L.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "ILS, RNAV APCH IN USE. LNDG AND DEPG RWY 2L, 2R.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -799,52 +1603,186 @@
       "Name": "Ladd Army Airfield",
       "Identifier": "PAFB",
       "Contractions": [
-        {"String": "5G", "Spoken": "FIVE G" },
-        {"String": "AFB", "Spoken": "AIR FORCE BASE" },
-        {"String": "APCH", "Spoken": "APPROACH" },
-        {"String": "APCH & RY INT CONTACT", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "APCHS", "Spoken": "APPROACHES" },
-        {"String": "APP", "Spoken": "APPROACH" },
-        {"String": "ARPT", "Spoken": "AIRPORT" },
-        {"String": "ARR", "Spoken": "ARRIVING" },
-        {"String": "ATTN", "Spoken": "ATTENTION" },
-        {"String": "AVBL", "Spoken": "AVAILABLE" },
-        {"String": "BTN", "Spoken": "BETWEEN" },
-        {"String": "BTWN", "Spoken": "BETWEEN" },
-        {"String": "CK", "Spoken": "CHECK" },
-        {"String": "CLNC", "Spoken": "CLEARANCE" },
-        {"String": "CLSD", "Spoken": "CLOSED" },
-        {"String": "CTC", "Spoken": "CONTACT" },
-        {"String": "CTR", "Spoken": "CENTER" },
-        {"String": "DEPG", "Spoken": "DEPARTING" },
-        {"String": "EFCT", "Spoken": "EFFECT" },
-        {"String": "EXP", "Spoken": "EXPECT" },
-        {"String": "EXPC", "Spoken": "EXPECT" },
-        {"String": "FM", "Spoken": "FROM" },
-        {"String": "FREQS", "Spoken": "FREQUENCIES" },
-        {"String": "FSS", "Spoken": "FLIGHT SERVICE STATION" },
-        {"String": "FT", "Spoken": "FOOT" },
-        {"String": "GND", "Spoken": "GROUND" },
-        {"String": "HAZDUS", "Spoken": "HAZARDOUS" },
-        {"String": "INFO", "Spoken": "INFORMATION" },
-        {"String": "INTXN", "Spoken": "INTERSECTION" },
-        {"String": "INVOF", "Spoken": "IN VICINITY OF" },
-        {"String": "LT", "Spoken": "LIGHT" },
-        {"String": "MULT", "Spoken": "MULTIPLE" },
-        {"String": "NSTD", "Spoken": "NON STANDARD" },
-        {"String": "OIC", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "OTS", "Spoken": "OUT OF SERVICE"},
-        {"String": "PRKG", "Spoken": "PARKING" },
-        {"String": "REQ", "Spoken": "REQUEST" },
-        {"String": "RNAV", "Spoken": "ARE NAV" },
-        {"String": "RWY", "Spoken": "RUNWAY" },
-        {"String": "RY", "Spoken": "RUNWAY" },
-        {"String": "SIMUL", "Spoken": "SIMULTANEOUS" },
-        {"String": "TURB", "Spoken": "TURBULENCE" },
-        {"String": "TWY", "Spoken": "TAXIWAY" },
-        {"String": "TWYS", "Spoken": "TAXIWAYS" },
-        {"String": "UNAUTH", "Spoken": "UNAUTHORIZED" },
-        {"String": "WX", "Spoken": "WEATHER" }
+        {
+          "String": "AFB",
+          "Spoken": "AIR FORCE BASE"
+        },
+        {
+          "String": "APCH",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "APCH & RY INT CONTACT",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "APCHS",
+          "Spoken": "APPROACHES"
+        },
+        {
+          "String": "APP",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "ARPT",
+          "Spoken": "AIRPORT"
+        },
+        {
+          "String": "ARR",
+          "Spoken": "ARRIVING"
+        },
+        {
+          "String": "ATTN",
+          "Spoken": "ATTENTION"
+        },
+        {
+          "String": "AVBL",
+          "Spoken": "AVAILABLE"
+        },
+        {
+          "String": "BTN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "BTWN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "CK",
+          "Spoken": "CHECK"
+        },
+        {
+          "String": "CLNC",
+          "Spoken": "CLEARANCE"
+        },
+        {
+          "String": "CLSD",
+          "Spoken": "CLOSED"
+        },
+        {
+          "String": "CTC",
+          "Spoken": "CONTACT"
+        },
+        {
+          "String": "CTR",
+          "Spoken": "CENTER"
+        },
+        {
+          "String": "DEPG",
+          "Spoken": "DEPG"
+        },
+        {
+          "String": "EFCT",
+          "Spoken": "EFFECT"
+        },
+        {
+          "String": "EXP",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "EXPC",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "FM",
+          "Spoken": "FROM"
+        },
+        {
+          "String": "FREQS",
+          "Spoken": "FREQUENCIES"
+        },
+        {
+          "String": "FSS",
+          "Spoken": "FLIGHT SERVICE STATION"
+        },
+        {
+          "String": "FT",
+          "Spoken": "FOOT"
+        },
+        {
+          "String": "GND",
+          "Spoken": "GROUND"
+        },
+        {
+          "String": "HAZDUS",
+          "Spoken": "HAZARDOUS"
+        },
+        {
+          "String": "INFO",
+          "Spoken": "INFORMATION"
+        },
+        {
+          "String": "INTXN",
+          "Spoken": "INTERSECTION"
+        },
+        {
+          "String": "INVOF",
+          "Spoken": "IN VICINITY OF"
+        },
+        {
+          "String": "LT",
+          "Spoken": "LIGHT"
+        },
+        {
+          "String": "MULT",
+          "Spoken": "MULTIPLE"
+        },
+        {
+          "String": "NSTD",
+          "Spoken": "NON STANDARD"
+        },
+        {
+          "String": "OIC",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "OTS",
+          "Spoken": "OUT OF SERVICE"
+        },
+        {
+          "String": "PRKG",
+          "Spoken": "PARKING"
+        },
+        {
+          "String": "REQ",
+          "Spoken": "REQUEST"
+        },
+        {
+          "String": "RNAV",
+          "Spoken": "ARE NAV"
+        },
+        {
+          "String": "RWY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "RY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "SIMUL",
+          "Spoken": "SIMULTANEOUS"
+        },
+        {
+          "String": "TURB",
+          "Spoken": "TURBULENCE"
+        },
+        {
+          "String": "TWY",
+          "Spoken": "TAXIWAY"
+        },
+        {
+          "String": "TWYS",
+          "Spoken": "TAXIWAYS"
+        },
+        {
+          "String": "UNAUTH",
+          "Spoken": "UNAUTHORIZED"
+        },
+        {
+          "String": "WX",
+          "Spoken": "WEATHER"
+        }
       ],
       "AtisFrequency": 34250,
       "ObservationTime": {
@@ -863,8 +1801,8 @@
       "Presets": [
         {
           "Name": "EAST OPS VMC (PRIMARY)",
-          "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 07. DEPG RWY 07.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWY 7.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -877,8 +1815,8 @@
         },
         {
           "Name": "WEST OPS VMC",
-          "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 25. DEPG RWY 25.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWY 25.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -890,23 +1828,9 @@
           }
         },
         {
-          "Name": "EAST IMC",
-          "AirportConditions": "ARRIVALS EXPECT NDB-A OR GPS APCH RWY 25, CIRCLE TO LAND RWY 07. DEPG RWY 07.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
-          "ArbitraryText": null,
-          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
-          "ExternalGenerator": {
-            "Url": null,
-            "Arrival": null,
-            "Departure": null,
-            "Approaches": null,
-            "Remarks": null
-          }
-        },
-        {
-          "Name": "EAST LOW IMC",
-          "AirportConditions": "ARRIVALS EXPECT NDB-A OR GPS APCH RWY 25. DEPG RWY 25.",
-          "Notams": "ARRIVING AND DEPARTING WITH SIGNIFICANT TAILWIND. CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "Name": "EAST IMC (RARE)",
+          "AirportConditions": "NDB-A APCH IN USE. LNDG AND DEPG RWY 07.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -919,8 +1843,8 @@
         },
         {
           "Name": "WEST OPS IMC",
-          "AirportConditions": "ARRIVALS EXPECT NDB-A OR GPS APCH RWY 25. DEPG RWY 25.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "GPS APCH IN USE. LNDG AND DEPG RWY 25.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -950,52 +1874,186 @@
       "Name": "Bryant Army Airfield",
       "Identifier": "PAFR",
       "Contractions": [
-        {"String": "5G", "Spoken": "FIVE G" },
-        {"String": "AFB", "Spoken": "AIR FORCE BASE" },
-        {"String": "APCH", "Spoken": "APPROACH" },
-        {"String": "APCH & RY INT CONTACT", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "APCHS", "Spoken": "APPROACHES" },
-        {"String": "APP", "Spoken": "APPROACH" },
-        {"String": "ARPT", "Spoken": "AIRPORT" },
-        {"String": "ARR", "Spoken": "ARRIVING" },
-        {"String": "ATTN", "Spoken": "ATTENTION" },
-        {"String": "AVBL", "Spoken": "AVAILABLE" },
-        {"String": "BTN", "Spoken": "BETWEEN" },
-        {"String": "BTWN", "Spoken": "BETWEEN" },
-        {"String": "CK", "Spoken": "CHECK" },
-        {"String": "CLNC", "Spoken": "CLEARANCE" },
-        {"String": "CLSD", "Spoken": "CLOSED" },
-        {"String": "CTC", "Spoken": "CONTACT" },
-        {"String": "CTR", "Spoken": "CENTER" },
-        {"String": "DEPG", "Spoken": "DEPARTING" },
-        {"String": "EFCT", "Spoken": "EFFECT" },
-        {"String": "EXP", "Spoken": "EXPECT" },
-        {"String": "EXPC", "Spoken": "EXPECT" },
-        {"String": "FM", "Spoken": "FROM" },
-        {"String": "FREQS", "Spoken": "FREQUENCIES" },
-        {"String": "FSS", "Spoken": "FLIGHT SERVICE STATION" },
-        {"String": "FT", "Spoken": "FOOT" },
-        {"String": "GND", "Spoken": "GROUND" },
-        {"String": "HAZDUS", "Spoken": "HAZARDOUS" },
-        {"String": "INFO", "Spoken": "INFORMATION" },
-        {"String": "INTXN", "Spoken": "INTERSECTION" },
-        {"String": "INVOF", "Spoken": "IN VICINITY OF" },
-        {"String": "LT", "Spoken": "LIGHT" },
-        {"String": "MULT", "Spoken": "MULTIPLE" },
-        {"String": "NSTD", "Spoken": "NON STANDARD" },
-        {"String": "OIC", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "OTS", "Spoken": "OUT OF SERVICE"},
-        {"String": "PRKG", "Spoken": "PARKING" },
-        {"String": "REQ", "Spoken": "REQUEST" },
-        {"String": "RNAV", "Spoken": "ARE NAV" },
-        {"String": "RWY", "Spoken": "RUNWAY" },
-        {"String": "RY", "Spoken": "RUNWAY" },
-        {"String": "SIMUL", "Spoken": "SIMULTANEOUS" },
-        {"String": "TURB", "Spoken": "TURBULENCE" },
-        {"String": "TWY", "Spoken": "TAXIWAY" },
-        {"String": "TWYS", "Spoken": "TAXIWAYS" },
-        {"String": "UNAUTH", "Spoken": "UNAUTHORIZED" },
-        {"String": "WX", "Spoken": "WEATHER" }
+        {
+          "String": "AFB",
+          "Spoken": "AIR FORCE BASE"
+        },
+        {
+          "String": "APCH",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "APCH & RY INT CONTACT",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "APCHS",
+          "Spoken": "APPROACHES"
+        },
+        {
+          "String": "APP",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "ARPT",
+          "Spoken": "AIRPORT"
+        },
+        {
+          "String": "ARR",
+          "Spoken": "ARRIVING"
+        },
+        {
+          "String": "ATTN",
+          "Spoken": "ATTENTION"
+        },
+        {
+          "String": "AVBL",
+          "Spoken": "AVAILABLE"
+        },
+        {
+          "String": "BTN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "BTWN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "CK",
+          "Spoken": "CHECK"
+        },
+        {
+          "String": "CLNC",
+          "Spoken": "CLEARANCE"
+        },
+        {
+          "String": "CLSD",
+          "Spoken": "CLOSED"
+        },
+        {
+          "String": "CTC",
+          "Spoken": "CONTACT"
+        },
+        {
+          "String": "CTR",
+          "Spoken": "CENTER"
+        },
+        {
+          "String": "DEPG",
+          "Spoken": "DEPG"
+        },
+        {
+          "String": "EFCT",
+          "Spoken": "EFFECT"
+        },
+        {
+          "String": "EXP",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "EXPC",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "FM",
+          "Spoken": "FROM"
+        },
+        {
+          "String": "FREQS",
+          "Spoken": "FREQUENCIES"
+        },
+        {
+          "String": "FSS",
+          "Spoken": "FLIGHT SERVICE STATION"
+        },
+        {
+          "String": "FT",
+          "Spoken": "FOOT"
+        },
+        {
+          "String": "GND",
+          "Spoken": "GROUND"
+        },
+        {
+          "String": "HAZDUS",
+          "Spoken": "HAZARDOUS"
+        },
+        {
+          "String": "INFO",
+          "Spoken": "INFORMATION"
+        },
+        {
+          "String": "INTXN",
+          "Spoken": "INTERSECTION"
+        },
+        {
+          "String": "INVOF",
+          "Spoken": "IN VICINITY OF"
+        },
+        {
+          "String": "LT",
+          "Spoken": "LIGHT"
+        },
+        {
+          "String": "MULT",
+          "Spoken": "MULTIPLE"
+        },
+        {
+          "String": "NSTD",
+          "Spoken": "NON STANDARD"
+        },
+        {
+          "String": "OIC",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "OTS",
+          "Spoken": "OUT OF SERVICE"
+        },
+        {
+          "String": "PRKG",
+          "Spoken": "PARKING"
+        },
+        {
+          "String": "REQ",
+          "Spoken": "REQUEST"
+        },
+        {
+          "String": "RNAV",
+          "Spoken": "ARE NAV"
+        },
+        {
+          "String": "RWY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "RY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "SIMUL",
+          "Spoken": "SIMULTANEOUS"
+        },
+        {
+          "String": "TURB",
+          "Spoken": "TURBULENCE"
+        },
+        {
+          "String": "TWY",
+          "Spoken": "TAXIWAY"
+        },
+        {
+          "String": "TWYS",
+          "Spoken": "TAXIWAYS"
+        },
+        {
+          "String": "UNAUTH",
+          "Spoken": "UNAUTHORIZED"
+        },
+        {
+          "String": "WX",
+          "Spoken": "WEATHER"
+        }
       ],
       "AtisFrequency": 34250,
       "ObservationTime": {
@@ -1014,8 +2072,8 @@
       "Presets": [
         {
           "Name": "SOUTH OPS",
-          "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWYS 19. DEPG RWYS 19.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWYS 19.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -1028,8 +2086,8 @@
         },
         {
           "Name": "NORTH OPS",
-          "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWYS 1. DEPG RWYS 1.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWYS 1.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -1059,52 +2117,186 @@
       "Name": "Juneau International Airport",
       "Identifier": "PAJN",
       "Contractions": [
-        {"String": "5G", "Spoken": "FIVE G" },
-        {"String": "AFB", "Spoken": "AIR FORCE BASE" },
-        {"String": "APCH", "Spoken": "APPROACH" },
-        {"String": "APCH & RY INT CONTACT", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "APCHS", "Spoken": "APPROACHES" },
-        {"String": "APP", "Spoken": "APPROACH" },
-        {"String": "ARPT", "Spoken": "AIRPORT" },
-        {"String": "ARR", "Spoken": "ARRIVING" },
-        {"String": "ATTN", "Spoken": "ATTENTION" },
-        {"String": "AVBL", "Spoken": "AVAILABLE" },
-        {"String": "BTN", "Spoken": "BETWEEN" },
-        {"String": "BTWN", "Spoken": "BETWEEN" },
-        {"String": "CK", "Spoken": "CHECK" },
-        {"String": "CLNC", "Spoken": "CLEARANCE" },
-        {"String": "CLSD", "Spoken": "CLOSED" },
-        {"String": "CTC", "Spoken": "CONTACT" },
-        {"String": "CTR", "Spoken": "CENTER" },
-        {"String": "DEPG", "Spoken": "DEPARTING" },
-        {"String": "EFCT", "Spoken": "EFFECT" },
-        {"String": "EXP", "Spoken": "EXPECT" },
-        {"String": "EXPC", "Spoken": "EXPECT" },
-        {"String": "FM", "Spoken": "FROM" },
-        {"String": "FREQS", "Spoken": "FREQUENCIES" },
-        {"String": "FSS", "Spoken": "FLIGHT SERVICE STATION" },
-        {"String": "FT", "Spoken": "FOOT" },
-        {"String": "GND", "Spoken": "GROUND" },
-        {"String": "HAZDUS", "Spoken": "HAZARDOUS" },
-        {"String": "INFO", "Spoken": "INFORMATION" },
-        {"String": "INTXN", "Spoken": "INTERSECTION" },
-        {"String": "INVOF", "Spoken": "IN VICINITY OF" },
-        {"String": "LT", "Spoken": "LIGHT" },
-        {"String": "MULT", "Spoken": "MULTIPLE" },
-        {"String": "NSTD", "Spoken": "NON STANDARD" },
-        {"String": "OIC", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "OTS", "Spoken": "OUT OF SERVICE"},
-        {"String": "PRKG", "Spoken": "PARKING" },
-        {"String": "REQ", "Spoken": "REQUEST" },
-        {"String": "RNAV", "Spoken": "ARE NAV" },
-        {"String": "RWY", "Spoken": "RUNWAY" },
-        {"String": "RY", "Spoken": "RUNWAY" },
-        {"String": "SIMUL", "Spoken": "SIMULTANEOUS" },
-        {"String": "TURB", "Spoken": "TURBULENCE" },
-        {"String": "TWY", "Spoken": "TAXIWAY" },
-        {"String": "TWYS", "Spoken": "TAXIWAYS" },
-        {"String": "UNAUTH", "Spoken": "UNAUTHORIZED" },
-        {"String": "WX", "Spoken": "WEATHER" }
+        {
+          "String": "AFB",
+          "Spoken": "AIR FORCE BASE"
+        },
+        {
+          "String": "APCH",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "APCH & RY INT CONTACT",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "APCHS",
+          "Spoken": "APPROACHES"
+        },
+        {
+          "String": "APP",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "ARPT",
+          "Spoken": "AIRPORT"
+        },
+        {
+          "String": "ARR",
+          "Spoken": "ARRIVING"
+        },
+        {
+          "String": "ATTN",
+          "Spoken": "ATTENTION"
+        },
+        {
+          "String": "AVBL",
+          "Spoken": "AVAILABLE"
+        },
+        {
+          "String": "BTN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "BTWN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "CK",
+          "Spoken": "CHECK"
+        },
+        {
+          "String": "CLNC",
+          "Spoken": "CLEARANCE"
+        },
+        {
+          "String": "CLSD",
+          "Spoken": "CLOSED"
+        },
+        {
+          "String": "CTC",
+          "Spoken": "CONTACT"
+        },
+        {
+          "String": "CTR",
+          "Spoken": "CENTER"
+        },
+        {
+          "String": "DEPG",
+          "Spoken": "DEPG"
+        },
+        {
+          "String": "EFCT",
+          "Spoken": "EFFECT"
+        },
+        {
+          "String": "EXP",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "EXPC",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "FM",
+          "Spoken": "FROM"
+        },
+        {
+          "String": "FREQS",
+          "Spoken": "FREQUENCIES"
+        },
+        {
+          "String": "FSS",
+          "Spoken": "FLIGHT SERVICE STATION"
+        },
+        {
+          "String": "FT",
+          "Spoken": "FOOT"
+        },
+        {
+          "String": "GND",
+          "Spoken": "GROUND"
+        },
+        {
+          "String": "HAZDUS",
+          "Spoken": "HAZARDOUS"
+        },
+        {
+          "String": "INFO",
+          "Spoken": "INFORMATION"
+        },
+        {
+          "String": "INTXN",
+          "Spoken": "INTERSECTION"
+        },
+        {
+          "String": "INVOF",
+          "Spoken": "IN VICINITY OF"
+        },
+        {
+          "String": "LT",
+          "Spoken": "LIGHT"
+        },
+        {
+          "String": "MULT",
+          "Spoken": "MULTIPLE"
+        },
+        {
+          "String": "NSTD",
+          "Spoken": "NON STANDARD"
+        },
+        {
+          "String": "OIC",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "OTS",
+          "Spoken": "OUT OF SERVICE"
+        },
+        {
+          "String": "PRKG",
+          "Spoken": "PARKING"
+        },
+        {
+          "String": "REQ",
+          "Spoken": "REQUEST"
+        },
+        {
+          "String": "RNAV",
+          "Spoken": "ARE NAV"
+        },
+        {
+          "String": "RWY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "RY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "SIMUL",
+          "Spoken": "SIMULTANEOUS"
+        },
+        {
+          "String": "TURB",
+          "Spoken": "TURBULENCE"
+        },
+        {
+          "String": "TWY",
+          "Spoken": "TAXIWAY"
+        },
+        {
+          "String": "TWYS",
+          "Spoken": "TAXIWAYS"
+        },
+        {
+          "String": "UNAUTH",
+          "Spoken": "UNAUTHORIZED"
+        },
+        {
+          "String": "WX",
+          "Spoken": "WEATHER"
+        }
       ],
       "AtisFrequency": 35200,
       "ObservationTime": {
@@ -1123,8 +2315,8 @@
       "Presets": [
         {
           "Name": "EAST OPS VMC (PRIMARY)",
-          "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 08. DEPG RWY 08. WATER RWY AVBL ON REQUEST.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWY 08.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -1137,8 +2329,8 @@
         },
         {
           "Name": "EAST OPS IMC (PRIMARY)",
-          "AirportConditions": "ARRIVALS EXPECT LDA-X OR RNAV APCH RWY 08. DEPG RWY 08.",
-          "Notams": "DEPARTURES FILE ASORT DEPARTURE OR WILL BE ASSIGNED JUNEAU OBSTACLE DEPARTURE. CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "LDA, GPS APCH IN USE. LNDG AND DEPG RWY 08.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -1151,8 +2343,8 @@
         },
         {
           "Name": "WEST OPS VMC",
-          "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 26. DEPG RWY 26. WATER RWY AVBL ON REQUEST.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWY 26.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -1165,8 +2357,8 @@
         },
         {
           "Name": "WEST OPS IMC",
-          "AirportConditions": "ARRIVALS EXPECT LDA-X OR RNAV APCH RWY 08. DEPG RWY 26.",
-          "Notams": "DEPARTURES FILE ASORT DEPARTURE OR WILL BE ASSIGNED JUNEAU OBSTACLE DEPARTURE. CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "LDA, GPS APCH IN USE. LNDG RWY 8, DEPG RWY 26.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -1196,52 +2388,186 @@
       "Name": "King Salmon Airport",
       "Identifier": "PAKN",
       "Contractions": [
-        {"String": "5G", "Spoken": "FIVE G" },
-        {"String": "AFB", "Spoken": "AIR FORCE BASE" },
-        {"String": "APCH", "Spoken": "APPROACH" },
-        {"String": "APCH & RY INT CONTACT", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "APCHS", "Spoken": "APPROACHES" },
-        {"String": "APP", "Spoken": "APPROACH" },
-        {"String": "ARPT", "Spoken": "AIRPORT" },
-        {"String": "ARR", "Spoken": "ARRIVING" },
-        {"String": "ATTN", "Spoken": "ATTENTION" },
-        {"String": "AVBL", "Spoken": "AVAILABLE" },
-        {"String": "BTN", "Spoken": "BETWEEN" },
-        {"String": "BTWN", "Spoken": "BETWEEN" },
-        {"String": "CK", "Spoken": "CHECK" },
-        {"String": "CLNC", "Spoken": "CLEARANCE" },
-        {"String": "CLSD", "Spoken": "CLOSED" },
-        {"String": "CTC", "Spoken": "CONTACT" },
-        {"String": "CTR", "Spoken": "CENTER" },
-        {"String": "DEPG", "Spoken": "DEPARTING" },
-        {"String": "EFCT", "Spoken": "EFFECT" },
-        {"String": "EXP", "Spoken": "EXPECT" },
-        {"String": "EXPC", "Spoken": "EXPECT" },
-        {"String": "FM", "Spoken": "FROM" },
-        {"String": "FREQS", "Spoken": "FREQUENCIES" },
-        {"String": "FSS", "Spoken": "FLIGHT SERVICE STATION" },
-        {"String": "FT", "Spoken": "FOOT" },
-        {"String": "GND", "Spoken": "GROUND" },
-        {"String": "HAZDUS", "Spoken": "HAZARDOUS" },
-        {"String": "INFO", "Spoken": "INFORMATION" },
-        {"String": "INTXN", "Spoken": "INTERSECTION" },
-        {"String": "INVOF", "Spoken": "IN VICINITY OF" },
-        {"String": "LT", "Spoken": "LIGHT" },
-        {"String": "MULT", "Spoken": "MULTIPLE" },
-        {"String": "NSTD", "Spoken": "NON STANDARD" },
-        {"String": "OIC", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "OTS", "Spoken": "OUT OF SERVICE"},
-        {"String": "PRKG", "Spoken": "PARKING" },
-        {"String": "REQ", "Spoken": "REQUEST" },
-        {"String": "RNAV", "Spoken": "ARE NAV" },
-        {"String": "RWY", "Spoken": "RUNWAY" },
-        {"String": "RY", "Spoken": "RUNWAY" },
-        {"String": "SIMUL", "Spoken": "SIMULTANEOUS" },
-        {"String": "TURB", "Spoken": "TURBULENCE" },
-        {"String": "TWY", "Spoken": "TAXIWAY" },
-        {"String": "TWYS", "Spoken": "TAXIWAYS" },
-        {"String": "UNAUTH", "Spoken": "UNAUTHORIZED" },
-        {"String": "WX", "Spoken": "WEATHER" }
+        {
+          "String": "AFB",
+          "Spoken": "AIR FORCE BASE"
+        },
+        {
+          "String": "APCH",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "APCH & RY INT CONTACT",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "APCHS",
+          "Spoken": "APPROACHES"
+        },
+        {
+          "String": "APP",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "ARPT",
+          "Spoken": "AIRPORT"
+        },
+        {
+          "String": "ARR",
+          "Spoken": "ARRIVING"
+        },
+        {
+          "String": "ATTN",
+          "Spoken": "ATTENTION"
+        },
+        {
+          "String": "AVBL",
+          "Spoken": "AVAILABLE"
+        },
+        {
+          "String": "BTN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "BTWN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "CK",
+          "Spoken": "CHECK"
+        },
+        {
+          "String": "CLNC",
+          "Spoken": "CLEARANCE"
+        },
+        {
+          "String": "CLSD",
+          "Spoken": "CLOSED"
+        },
+        {
+          "String": "CTC",
+          "Spoken": "CONTACT"
+        },
+        {
+          "String": "CTR",
+          "Spoken": "CENTER"
+        },
+        {
+          "String": "DEPG",
+          "Spoken": "DEPG"
+        },
+        {
+          "String": "EFCT",
+          "Spoken": "EFFECT"
+        },
+        {
+          "String": "EXP",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "EXPC",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "FM",
+          "Spoken": "FROM"
+        },
+        {
+          "String": "FREQS",
+          "Spoken": "FREQUENCIES"
+        },
+        {
+          "String": "FSS",
+          "Spoken": "FLIGHT SERVICE STATION"
+        },
+        {
+          "String": "FT",
+          "Spoken": "FOOT"
+        },
+        {
+          "String": "GND",
+          "Spoken": "GROUND"
+        },
+        {
+          "String": "HAZDUS",
+          "Spoken": "HAZARDOUS"
+        },
+        {
+          "String": "INFO",
+          "Spoken": "INFORMATION"
+        },
+        {
+          "String": "INTXN",
+          "Spoken": "INTERSECTION"
+        },
+        {
+          "String": "INVOF",
+          "Spoken": "IN VICINITY OF"
+        },
+        {
+          "String": "LT",
+          "Spoken": "LIGHT"
+        },
+        {
+          "String": "MULT",
+          "Spoken": "MULTIPLE"
+        },
+        {
+          "String": "NSTD",
+          "Spoken": "NON STANDARD"
+        },
+        {
+          "String": "OIC",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "OTS",
+          "Spoken": "OUT OF SERVICE"
+        },
+        {
+          "String": "PRKG",
+          "Spoken": "PARKING"
+        },
+        {
+          "String": "REQ",
+          "Spoken": "REQUEST"
+        },
+        {
+          "String": "RNAV",
+          "Spoken": "ARE NAV"
+        },
+        {
+          "String": "RWY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "RY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "SIMUL",
+          "Spoken": "SIMULTANEOUS"
+        },
+        {
+          "String": "TURB",
+          "Spoken": "TURBULENCE"
+        },
+        {
+          "String": "TWY",
+          "Spoken": "TAXIWAY"
+        },
+        {
+          "String": "TWYS",
+          "Spoken": "TAXIWAYS"
+        },
+        {
+          "String": "UNAUTH",
+          "Spoken": "UNAUTHORIZED"
+        },
+        {
+          "String": "WX",
+          "Spoken": "WEATHER"
+        }
       ],
       "AtisFrequency": 28800,
       "ObservationTime": {
@@ -1259,9 +2585,9 @@
       "IDSEndpoint": null,
       "Presets": [
         {
-          "Name": "NORTHWEST OPS VMC",
-          "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWYS 30. DEPG RWY 30.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "Name": "NORTH OPS VMC",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWY 30.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -1273,9 +2599,9 @@
           }
         },
         {
-          "Name": "NORTHWEST OPS IMC",
-          "AirportConditions": "ARRIVALS EXPECT VOR Y, LOC BC, OR RNAV APCH RWY 30. DEPG RWY 30.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "Name": "NORTH OPS IMC",
+          "AirportConditions": "LOC, GPS APCH IN USE. LNDG AND DEPG RWY 30.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -1287,9 +2613,9 @@
           }
         },
         {
-          "Name": "SOUTHEAST OPS VMC",
-          "AirportConditions": "ARRIVALS EXPECT VISUAL RWY 12. DEPG RWY 12.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "Name": "SOUTH OPS VMC",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWY 12.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -1301,9 +2627,9 @@
           }
         },
         {
-          "Name": "SOUTHEAST OPS IMC",
-          "AirportConditions": "ARRIVALS EXPECT ILS OR RNAV APCH RWY 12. DEPG RWY 12.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "Name": "SOUTH OPS IMC",
+          "AirportConditions": "ILS APCH IN USE. LNDG AND DEPG RWY 12.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -1333,52 +2659,186 @@
       "Name": "Lake Hood Airport",
       "Identifier": "PALH",
       "Contractions": [
-        {"String": "5G", "Spoken": "FIVE G" },
-        {"String": "AFB", "Spoken": "AIR FORCE BASE" },
-        {"String": "APCH", "Spoken": "APPROACH" },
-        {"String": "APCH & RY INT CONTACT", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "APCHS", "Spoken": "APPROACHES" },
-        {"String": "APP", "Spoken": "APPROACH" },
-        {"String": "ARPT", "Spoken": "AIRPORT" },
-        {"String": "ARR", "Spoken": "ARRIVING" },
-        {"String": "ATTN", "Spoken": "ATTENTION" },
-        {"String": "AVBL", "Spoken": "AVAILABLE" },
-        {"String": "BTN", "Spoken": "BETWEEN" },
-        {"String": "BTWN", "Spoken": "BETWEEN" },
-        {"String": "CK", "Spoken": "CHECK" },
-        {"String": "CLNC", "Spoken": "CLEARANCE" },
-        {"String": "CLSD", "Spoken": "CLOSED" },
-        {"String": "CTC", "Spoken": "CONTACT" },
-        {"String": "CTR", "Spoken": "CENTER" },
-        {"String": "DEPG", "Spoken": "DEPARTING" },
-        {"String": "EFCT", "Spoken": "EFFECT" },
-        {"String": "EXP", "Spoken": "EXPECT" },
-        {"String": "EXPC", "Spoken": "EXPECT" },
-        {"String": "FM", "Spoken": "FROM" },
-        {"String": "FREQS", "Spoken": "FREQUENCIES" },
-        {"String": "FSS", "Spoken": "FLIGHT SERVICE STATION" },
-        {"String": "FT", "Spoken": "FOOT" },
-        {"String": "GND", "Spoken": "GROUND" },
-        {"String": "HAZDUS", "Spoken": "HAZARDOUS" },
-        {"String": "INFO", "Spoken": "INFORMATION" },
-        {"String": "INTXN", "Spoken": "INTERSECTION" },
-        {"String": "INVOF", "Spoken": "IN VICINITY OF" },
-        {"String": "LT", "Spoken": "LIGHT" },
-        {"String": "MULT", "Spoken": "MULTIPLE" },
-        {"String": "NSTD", "Spoken": "NON STANDARD" },
-        {"String": "OIC", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "OTS", "Spoken": "OUT OF SERVICE"},
-        {"String": "PRKG", "Spoken": "PARKING" },
-        {"String": "REQ", "Spoken": "REQUEST" },
-        {"String": "RNAV", "Spoken": "ARE NAV" },
-        {"String": "RWY", "Spoken": "RUNWAY" },
-        {"String": "RY", "Spoken": "RUNWAY" },
-        {"String": "SIMUL", "Spoken": "SIMULTANEOUS" },
-        {"String": "TURB", "Spoken": "TURBULENCE" },
-        {"String": "TWY", "Spoken": "TAXIWAY" },
-        {"String": "TWYS", "Spoken": "TAXIWAYS" },
-        {"String": "UNAUTH", "Spoken": "UNAUTHORIZED" },
-        {"String": "WX", "Spoken": "WEATHER" }
+        {
+          "String": "AFB",
+          "Spoken": "AIR FORCE BASE"
+        },
+        {
+          "String": "APCH",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "APCH & RY INT CONTACT",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "APCHS",
+          "Spoken": "APPROACHES"
+        },
+        {
+          "String": "APP",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "ARPT",
+          "Spoken": "AIRPORT"
+        },
+        {
+          "String": "ARR",
+          "Spoken": "ARRIVING"
+        },
+        {
+          "String": "ATTN",
+          "Spoken": "ATTENTION"
+        },
+        {
+          "String": "AVBL",
+          "Spoken": "AVAILABLE"
+        },
+        {
+          "String": "BTN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "BTWN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "CK",
+          "Spoken": "CHECK"
+        },
+        {
+          "String": "CLNC",
+          "Spoken": "CLEARANCE"
+        },
+        {
+          "String": "CLSD",
+          "Spoken": "CLOSED"
+        },
+        {
+          "String": "CTC",
+          "Spoken": "CONTACT"
+        },
+        {
+          "String": "CTR",
+          "Spoken": "CENTER"
+        },
+        {
+          "String": "DEPG",
+          "Spoken": "DEPG"
+        },
+        {
+          "String": "EFCT",
+          "Spoken": "EFFECT"
+        },
+        {
+          "String": "EXP",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "EXPC",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "FM",
+          "Spoken": "FROM"
+        },
+        {
+          "String": "FREQS",
+          "Spoken": "FREQUENCIES"
+        },
+        {
+          "String": "FSS",
+          "Spoken": "FLIGHT SERVICE STATION"
+        },
+        {
+          "String": "FT",
+          "Spoken": "FOOT"
+        },
+        {
+          "String": "GND",
+          "Spoken": "GROUND"
+        },
+        {
+          "String": "HAZDUS",
+          "Spoken": "HAZARDOUS"
+        },
+        {
+          "String": "INFO",
+          "Spoken": "INFORMATION"
+        },
+        {
+          "String": "INTXN",
+          "Spoken": "INTERSECTION"
+        },
+        {
+          "String": "INVOF",
+          "Spoken": "IN VICINITY OF"
+        },
+        {
+          "String": "LT",
+          "Spoken": "LIGHT"
+        },
+        {
+          "String": "MULT",
+          "Spoken": "MULTIPLE"
+        },
+        {
+          "String": "NSTD",
+          "Spoken": "NON STANDARD"
+        },
+        {
+          "String": "OIC",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "OTS",
+          "Spoken": "OUT OF SERVICE"
+        },
+        {
+          "String": "PRKG",
+          "Spoken": "PARKING"
+        },
+        {
+          "String": "REQ",
+          "Spoken": "REQUEST"
+        },
+        {
+          "String": "RNAV",
+          "Spoken": "ARE NAV"
+        },
+        {
+          "String": "RWY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "RY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "SIMUL",
+          "Spoken": "SIMULTANEOUS"
+        },
+        {
+          "String": "TURB",
+          "Spoken": "TURBULENCE"
+        },
+        {
+          "String": "TWY",
+          "Spoken": "TAXIWAY"
+        },
+        {
+          "String": "TWYS",
+          "Spoken": "TAXIWAYS"
+        },
+        {
+          "String": "UNAUTH",
+          "Spoken": "UNAUTHORIZED"
+        },
+        {
+          "String": "WX",
+          "Spoken": "WEATHER"
+        }
       ],
       "AtisFrequency": 25600,
       "ObservationTime": {
@@ -1397,8 +2857,8 @@
       "Presets": [
         {
           "Name": "SOUTH OPS VMC",
-          "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 14. DEPG RWY 14.",
-          "Notams": "FLOAT PLANES ADVISE ON INITIAL CONTACT AND REQUESTED WATERWAY. CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWY 14.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -1411,8 +2871,8 @@
         },
         {
           "Name": "NORTH OPS VMC",
-          "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWY 32. DEPG RWY 32.",
-          "Notams": "FLOAT PLANES ADVISE ON INITIAL CONTACT AND REQUESTED WATERWAY. CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWY 32.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -1439,55 +2899,189 @@
       "UseDecimalTerminology": false
     },
     {
-      "Name": "Merrill",
+      "Name": "Merrill Field",
       "Identifier": "PAMR",
       "Contractions": [
-        {"String": "5G", "Spoken": "FIVE G" },
-        {"String": "AFB", "Spoken": "AIR FORCE BASE" },
-        {"String": "APCH", "Spoken": "APPROACH" },
-        {"String": "APCH & RY INT CONTACT", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "APCHS", "Spoken": "APPROACHES" },
-        {"String": "APP", "Spoken": "APPROACH" },
-        {"String": "ARPT", "Spoken": "AIRPORT" },
-        {"String": "ARR", "Spoken": "ARRIVING" },
-        {"String": "ATTN", "Spoken": "ATTENTION" },
-        {"String": "AVBL", "Spoken": "AVAILABLE" },
-        {"String": "BTN", "Spoken": "BETWEEN" },
-        {"String": "BTWN", "Spoken": "BETWEEN" },
-        {"String": "CK", "Spoken": "CHECK" },
-        {"String": "CLNC", "Spoken": "CLEARANCE" },
-        {"String": "CLSD", "Spoken": "CLOSED" },
-        {"String": "CTC", "Spoken": "CONTACT" },
-        {"String": "CTR", "Spoken": "CENTER" },
-        {"String": "DEPG", "Spoken": "DEPARTING" },
-        {"String": "EFCT", "Spoken": "EFFECT" },
-        {"String": "EXP", "Spoken": "EXPECT" },
-        {"String": "EXPC", "Spoken": "EXPECT" },
-        {"String": "FM", "Spoken": "FROM" },
-        {"String": "FREQS", "Spoken": "FREQUENCIES" },
-        {"String": "FSS", "Spoken": "FLIGHT SERVICE STATION" },
-        {"String": "FT", "Spoken": "FOOT" },
-        {"String": "GND", "Spoken": "GROUND" },
-        {"String": "HAZDUS", "Spoken": "HAZARDOUS" },
-        {"String": "INFO", "Spoken": "INFORMATION" },
-        {"String": "INTXN", "Spoken": "INTERSECTION" },
-        {"String": "INVOF", "Spoken": "IN VICINITY OF" },
-        {"String": "LT", "Spoken": "LIGHT" },
-        {"String": "MULT", "Spoken": "MULTIPLE" },
-        {"String": "NSTD", "Spoken": "NON STANDARD" },
-        {"String": "OIC", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "OTS", "Spoken": "OUT OF SERVICE"},
-        {"String": "PRKG", "Spoken": "PARKING" },
-        {"String": "REQ", "Spoken": "REQUEST" },
-        {"String": "RNAV", "Spoken": "ARE NAV" },
-        {"String": "RWY", "Spoken": "RUNWAY" },
-        {"String": "RY", "Spoken": "RUNWAY" },
-        {"String": "SIMUL", "Spoken": "SIMULTANEOUS" },
-        {"String": "TURB", "Spoken": "TURBULENCE" },
-        {"String": "TWY", "Spoken": "TAXIWAY" },
-        {"String": "TWYS", "Spoken": "TAXIWAYS" },
-        {"String": "UNAUTH", "Spoken": "UNAUTHORIZED" },
-        {"String": "WX", "Spoken": "WEATHER" }
+        {
+          "String": "AFB",
+          "Spoken": "AIR FORCE BASE"
+        },
+        {
+          "String": "APCH",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "APCH & RY INT CONTACT",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "APCHS",
+          "Spoken": "APPROACHES"
+        },
+        {
+          "String": "APP",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "ARPT",
+          "Spoken": "AIRPORT"
+        },
+        {
+          "String": "ARR",
+          "Spoken": "ARRIVING"
+        },
+        {
+          "String": "ATTN",
+          "Spoken": "ATTENTION"
+        },
+        {
+          "String": "AVBL",
+          "Spoken": "AVAILABLE"
+        },
+        {
+          "String": "BTN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "BTWN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "CK",
+          "Spoken": "CHECK"
+        },
+        {
+          "String": "CLNC",
+          "Spoken": "CLEARANCE"
+        },
+        {
+          "String": "CLSD",
+          "Spoken": "CLOSED"
+        },
+        {
+          "String": "CTC",
+          "Spoken": "CONTACT"
+        },
+        {
+          "String": "CTR",
+          "Spoken": "CENTER"
+        },
+        {
+          "String": "DEPG",
+          "Spoken": "DEPG"
+        },
+        {
+          "String": "EFCT",
+          "Spoken": "EFFECT"
+        },
+        {
+          "String": "EXP",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "EXPC",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "FM",
+          "Spoken": "FROM"
+        },
+        {
+          "String": "FREQS",
+          "Spoken": "FREQUENCIES"
+        },
+        {
+          "String": "FSS",
+          "Spoken": "FLIGHT SERVICE STATION"
+        },
+        {
+          "String": "FT",
+          "Spoken": "FOOT"
+        },
+        {
+          "String": "GND",
+          "Spoken": "GROUND"
+        },
+        {
+          "String": "HAZDUS",
+          "Spoken": "HAZARDOUS"
+        },
+        {
+          "String": "INFO",
+          "Spoken": "INFORMATION"
+        },
+        {
+          "String": "INTXN",
+          "Spoken": "INTERSECTION"
+        },
+        {
+          "String": "INVOF",
+          "Spoken": "IN VICINITY OF"
+        },
+        {
+          "String": "LT",
+          "Spoken": "LIGHT"
+        },
+        {
+          "String": "MULT",
+          "Spoken": "MULTIPLE"
+        },
+        {
+          "String": "NSTD",
+          "Spoken": "NON STANDARD"
+        },
+        {
+          "String": "OIC",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "OTS",
+          "Spoken": "OUT OF SERVICE"
+        },
+        {
+          "String": "PRKG",
+          "Spoken": "PARKING"
+        },
+        {
+          "String": "REQ",
+          "Spoken": "REQUEST"
+        },
+        {
+          "String": "RNAV",
+          "Spoken": "ARE NAV"
+        },
+        {
+          "String": "RWY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "RY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "SIMUL",
+          "Spoken": "SIMULTANEOUS"
+        },
+        {
+          "String": "TURB",
+          "Spoken": "TURBULENCE"
+        },
+        {
+          "String": "TWY",
+          "Spoken": "TAXIWAY"
+        },
+        {
+          "String": "TWYS",
+          "Spoken": "TAXIWAYS"
+        },
+        {
+          "String": "UNAUTH",
+          "Spoken": "UNAUTHORIZED"
+        },
+        {
+          "String": "WX",
+          "Spoken": "WEATHER"
+        }
       ],
       "AtisFrequency": 24250,
       "ObservationTime": {
@@ -1506,8 +3100,8 @@
       "Presets": [
         {
           "Name": "NORTHEAST OPS VMC (PRIMARY)",
-          "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWYS 07, 34. DEPG RWYS 07, 34.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWYS 07, 34.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -1520,8 +3114,8 @@
         },
         {
           "Name": "NORTHWEST OPS VMC",
-          "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWYS 25, 34. DEPG RWYS 25, 34.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWYS 25, 34.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -1534,8 +3128,8 @@
         },
         {
           "Name": "SOUTHEAST OPS VMC",
-          "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWYS 07, 16. DEPG RWYS 07, 16.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWYS 07, 16.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -1548,8 +3142,8 @@
         },
         {
           "Name": "SOUTHWEST OPS VMC",
-          "AirportConditions": "ARRIVALS EXPECT VISUAL APCH RWYS 16, 25. DEPG RWYS 16, 25.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWYS 16, 25.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -1562,8 +3156,8 @@
         },
         {
           "Name": "IMC",
-          "AirportConditions": "ARRIVALS EXPECT VOR-A APCH. OIC.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "AirportConditions": "VOR APCH IN USE. OIC",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -1593,52 +3187,186 @@
       "Name": "Ted Stevens Anchorage International Airport",
       "Identifier": "PANC",
       "Contractions": [
-        {"String": "5G", "Spoken": "FIVE G" },
-        {"String": "AFB", "Spoken": "AIR FORCE BASE" },
-        {"String": "APCH", "Spoken": "APPROACH" },
-        {"String": "APCH & RY INT CONTACT", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "APCHS", "Spoken": "APPROACHES" },
-        {"String": "APP", "Spoken": "APPROACH" },
-        {"String": "ARPT", "Spoken": "AIRPORT" },
-        {"String": "ARR", "Spoken": "ARRIVING" },
-        {"String": "ATTN", "Spoken": "ATTENTION" },
-        {"String": "AVBL", "Spoken": "AVAILABLE" },
-        {"String": "BTN", "Spoken": "BETWEEN" },
-        {"String": "BTWN", "Spoken": "BETWEEN" },
-        {"String": "CK", "Spoken": "CHECK" },
-        {"String": "CLNC", "Spoken": "CLEARANCE" },
-        {"String": "CLSD", "Spoken": "CLOSED" },
-        {"String": "CTC", "Spoken": "CONTACT" },
-        {"String": "CTR", "Spoken": "CENTER" },
-        {"String": "DEPG", "Spoken": "DEPARTING" },
-        {"String": "EFCT", "Spoken": "EFFECT" },
-        {"String": "EXP", "Spoken": "EXPECT" },
-        {"String": "EXPC", "Spoken": "EXPECT" },
-        {"String": "FM", "Spoken": "FROM" },
-        {"String": "FREQS", "Spoken": "FREQUENCIES" },
-        {"String": "FSS", "Spoken": "FLIGHT SERVICE STATION" },
-        {"String": "FT", "Spoken": "FOOT" },
-        {"String": "GND", "Spoken": "GROUND" },
-        {"String": "HAZDUS", "Spoken": "HAZARDOUS" },
-        {"String": "INFO", "Spoken": "INFORMATION" },
-        {"String": "INTXN", "Spoken": "INTERSECTION" },
-        {"String": "INVOF", "Spoken": "IN VICINITY OF" },
-        {"String": "LT", "Spoken": "LIGHT" },
-        {"String": "MULT", "Spoken": "MULTIPLE" },
-        {"String": "NSTD", "Spoken": "NON STANDARD" },
-        {"String": "OIC", "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT" },
-        {"String": "OTS", "Spoken": "OUT OF SERVICE"},
-        {"String": "PRKG", "Spoken": "PARKING" },
-        {"String": "REQ", "Spoken": "REQUEST" },
-        {"String": "RNAV", "Spoken": "ARE NAV" },
-        {"String": "RWY", "Spoken": "RUNWAY" },
-        {"String": "RY", "Spoken": "RUNWAY" },
-        {"String": "SIMUL", "Spoken": "SIMULTANEOUS" },
-        {"String": "TURB", "Spoken": "TURBULENCE" },
-        {"String": "TWY", "Spoken": "TAXIWAY" },
-        {"String": "TWYS", "Spoken": "TAXIWAYS" },
-        {"String": "UNAUTH", "Spoken": "UNAUTHORIZED" },
-        {"String": "WX", "Spoken": "WEATHER" }
+        {
+          "String": "AFB",
+          "Spoken": "AIR FORCE BASE"
+        },
+        {
+          "String": "APCH",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "APCH & RY INT CONTACT",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "APCHS",
+          "Spoken": "APPROACHES"
+        },
+        {
+          "String": "APP",
+          "Spoken": "APPROACH"
+        },
+        {
+          "String": "ARPT",
+          "Spoken": "AIRPORT"
+        },
+        {
+          "String": "ARR",
+          "Spoken": "ARRIVING"
+        },
+        {
+          "String": "ATTN",
+          "Spoken": "ATTENTION"
+        },
+        {
+          "String": "AVBL",
+          "Spoken": "AVAILABLE"
+        },
+        {
+          "String": "BTN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "BTWN",
+          "Spoken": "BETWEEN"
+        },
+        {
+          "String": "CK",
+          "Spoken": "CHECK"
+        },
+        {
+          "String": "CLNC",
+          "Spoken": "CLEARANCE"
+        },
+        {
+          "String": "CLSD",
+          "Spoken": "CLOSED"
+        },
+        {
+          "String": "CTC",
+          "Spoken": "CONTACT"
+        },
+        {
+          "String": "CTR",
+          "Spoken": "CENTER"
+        },
+        {
+          "String": "DEPG",
+          "Spoken": "DEPG"
+        },
+        {
+          "String": "EFCT",
+          "Spoken": "EFFECT"
+        },
+        {
+          "String": "EXP",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "EXPC",
+          "Spoken": "EXPECT"
+        },
+        {
+          "String": "FM",
+          "Spoken": "FROM"
+        },
+        {
+          "String": "FREQS",
+          "Spoken": "FREQUENCIES"
+        },
+        {
+          "String": "FSS",
+          "Spoken": "FLIGHT SERVICE STATION"
+        },
+        {
+          "String": "FT",
+          "Spoken": "FOOT"
+        },
+        {
+          "String": "GND",
+          "Spoken": "GROUND"
+        },
+        {
+          "String": "HAZDUS",
+          "Spoken": "HAZARDOUS"
+        },
+        {
+          "String": "INFO",
+          "Spoken": "INFORMATION"
+        },
+        {
+          "String": "INTXN",
+          "Spoken": "INTERSECTION"
+        },
+        {
+          "String": "INVOF",
+          "Spoken": "IN VICINITY OF"
+        },
+        {
+          "String": "LT",
+          "Spoken": "LIGHT"
+        },
+        {
+          "String": "MULT",
+          "Spoken": "MULTIPLE"
+        },
+        {
+          "String": "NSTD",
+          "Spoken": "NON STANDARD"
+        },
+        {
+          "String": "OIC",
+          "Spoken": "EXPECT APPROACH AND RUNWAY ASSIGNMENT UPON INITIAL CONTACT"
+        },
+        {
+          "String": "OTS",
+          "Spoken": "OUT OF SERVICE"
+        },
+        {
+          "String": "PRKG",
+          "Spoken": "PARKING"
+        },
+        {
+          "String": "REQ",
+          "Spoken": "REQUEST"
+        },
+        {
+          "String": "RNAV",
+          "Spoken": "ARE NAV"
+        },
+        {
+          "String": "RWY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "RY",
+          "Spoken": "RUNWAY"
+        },
+        {
+          "String": "SIMUL",
+          "Spoken": "SIMULTANEOUS"
+        },
+        {
+          "String": "TURB",
+          "Spoken": "TURBULENCE"
+        },
+        {
+          "String": "TWY",
+          "Spoken": "TAXIWAY"
+        },
+        {
+          "String": "TWYS",
+          "Spoken": "TAXIWAYS"
+        },
+        {
+          "String": "UNAUTH",
+          "Spoken": "UNAUTHORIZED"
+        },
+        {
+          "String": "WX",
+          "Spoken": "WEATHER"
+        }
       ],
       "AtisFrequency": 35500,
       "ObservationTime": {
@@ -1656,9 +3384,9 @@
       "IDSEndpoint": null,
       "Presets": [
         {
-          "Name": "PRIMARY OPS (ARR 7LR / DEP 33)",
-          "AirportConditions": "RNAV/GPS RWY 7 RIGHT, RNAV/GPS RWY 7 LEFT APPROACHES IN USE. LANDING RWY 7R, 7L, DEPARTING RWY 7L, 33.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "Name": "PRIMARY OPS (ARR 7LR / DEP 33) IMC",
+          "AirportConditions": "ILS, GPS APCH IN USE. LNDG RWY 7R, 7L, DEPG RWY 7L, 33.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -1670,9 +3398,9 @@
           }
         },
         {
-          "Name": "NORTH OPS (ARR/DEP 33)",
-          "AirportConditions": "ARRIVALS EXP VISUAL OR RNP RWY 33 APCH. DEPARTING RWY 33.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "Name": "PRIMARY OPS (ARR 7LR / DEP 33) VMC",
+          "AirportConditions": "VIS APCH IN USE. LNDG RWY 7R, 7L, DEPG RWY 7L, 33.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -1684,9 +3412,9 @@
           }
         },
         {
-          "Name": "SOUTHWEST OPS (ARR 15/DEP 25L)",
-          "AirportConditions": "DEPARTING RWY 25L. ARRIVING RWY 15.",
-          "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
+          "Name": "NORTH OPS (ARR/DEP 33) IMC",
+          "AirportConditions": "RNAV APCH IN USE. LNDG AND DEPG RWY 33.",
+          "Notams": "",
           "ArbitraryText": null,
           "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
           "ExternalGenerator": {
@@ -1695,22 +3423,78 @@
             "Departure": null,
             "Approaches": null,
             "Remarks": null
-            }
-          },
-          {
-            "Name": "SOUTHEAST OPS (ARR 15/DEP 7L)",
-            "AirportConditions": "DEPARTING RWY 7L. ARRIVING RWY 15.",
-            "Notams": "CLNC READBACK YOUR SQUAWK CODE ONLY. VFR AIRCRAFT SAY DIRECTION OF FLIGHT. MODE C ON DURING TAXI.",
-            "ArbitraryText": null,
-            "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
-            "ExternalGenerator": {
-              "Url": null,
-              "Arrival": null,
-              "Departure": null,
-              "Approaches": null,
-              "Remarks": null
-              }
-            }
+          }
+        },
+        {
+          "Name": "NORTH OPS (ARR/DEP 33) VMC",
+          "AirportConditions": "VIS APCH IN USE. LNDG AND DEPG RWY 33.",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "SOUTHWEST OPS (ARR 15/DEP 25RL) IMC",
+          "AirportConditions": "ILS APCH IN USE. LNDG RWY 15. DEPG RWY 25R, 25L.",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "SOUTHWEST OPS (ARR 15/DEP 25RL) VMC",
+          "AirportConditions": "VIS APCH IN USE. LNDG RWY 15. DEPG RWY 25R, 25L.",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "SOUTHEAST OPS (ARR 15/DEP 7RL) IMC",
+          "AirportConditions": "ILS APCH IN USE. LNDG RWY 15. DEPG RWY 7R, 7L.",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        },
+        {
+          "Name": "SOUTHEAST OPS (ARR 15/DEP 7RL) VMC",
+          "AirportConditions": "VIS APCH IN USE. LNDG RWY 15. DEPG RWY 7R, 7L.",
+          "Notams": "",
+          "ArbitraryText": null,
+          "Template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+          "ExternalGenerator": {
+            "Url": null,
+            "Arrival": null,
+            "Departure": null,
+            "Approaches": null,
+            "Remarks": null
+          }
+        }
       ],
       "AirportConditionDefinitions": [],
       "AirportConditionsBeforeFreeText": false,
